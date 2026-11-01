@@ -4,28 +4,29 @@ from pathlib import Path
 from lab01_service import utc_parse, utc_text
 
 def resolve_paths(config, config_path):
-    """Exercise 1: this works only when the terminal is in the expected folder.
-    Make the configuration file's parent the anchor for all three paths.
-    Preserve absolute paths. Do not create files here or change the working directory.
+    """Exercise 1: anchor relative paths to the configuration file's folder.
+    Absolute paths stay absolute. Nothing is created, the cwd is not changed.
     """
-    return {key:Path(config[key]).resolve() for key in ('database','preview_directory','log_file')}
+    base = Path(config_path).resolve().parent
+    # base / absolute_path returns the absolute path unchanged.
+    return {key: (base / config[key]).resolve()
+            for key in ('database', 'preview_directory', 'log_file')}
 
 def choose_until(explicit_until=None, clock=None):
-    """Exercise 2: this copied demonstration end never discovers fresh scenes.
-    Preserve an explicit --until (normalizing it to UTC); otherwise capture the
-    current aware UTC clock once. clock is supplied only by the checks.
-    Reject timestamps without a timezone instead of assuming local time.
+    """Exercise 2: explicit --until wins (normalized to UTC); otherwise capture
+    the current aware UTC time exactly once. Timezone-free input is rejected.
     """
-    return '2025-06-15T00:00:00Z'
+    if explicit_until is not None:
+        return utc_text(utc_parse(explicit_until))  # utc_parse rejects naive timestamps
+    now = clock() if clock is not None else datetime.now(timezone.utc)
+    if now.tzinfo is None:
+        raise ValueError('Clock must return a timezone-aware datetime')
+    return utc_text(now.replace(microsecond=0))
 
 def execute_job(job, logger):
-    """Exercise 3: the terminal currently claims success after a failed job.
-    On success return (0, the job result). On failure log the exception and return
-    (1, a dictionary with status='failed' and an informative error string).
-    Keep the exception handler, but report its actual outcome.
-    """
+    """Exercise 3: report the real outcome of the job."""
     try:
         return 0, job()
-    except Exception:
-        logger.info('Finished')
-        return 0, {'status':'succeeded'}
+    except Exception as exc:
+        logger.exception('Job failed')
+        return 1, {'status': 'failed', 'error': f'{type(exc).__name__}: {exc}'}
