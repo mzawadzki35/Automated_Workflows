@@ -1,0 +1,178 @@
+{
+  "database": "C:\\Users\\mzawa\\Desktop\\mgr - II sem\\Authomated_Workflows_Windows\\Automated_Workflows\\Labs\\Lab03\\state\\catalogue.sqlite",
+  "attempts": [
+    {
+      "attempt_id": "attempt-120a5e26-1222-48c7-8172-f759658c9be9",
+      "run_id": "lab03-768de47c-aa5f-4427-9070-971f80482fa9",
+      "item_id": "S2C_34UDA_20250605_0_L2A",
+      "asset_key": "red",
+      "aoi_key": "48e7066dc2510b10454cbc305c90ecb47f71c0966d733d6ab4ec2630c8745724",
+      "status": "succeeded",
+      "stage": "complete",
+      "network_bytes": 2097153,
+      "http_status": 206,
+      "error_code": null,
+      "error_message": null,
+      "artifact_id": "59d7497b6d0acac9cc3d487175e8d2cbd5d8612fbd1a58b9e37d8eb83d7c06e1",
+      "started_at": "2026-11-01T16:04:27.465048Z"
+    },
+    {
+      "attempt_id": "attempt-6385ff05-b19a-4126-97c4-a0b71699e87e",
+      "run_id": "lab03-768de47c-aa5f-4427-9070-971f80482fa9",
+      "item_id": "S2C_34UDA_20250605_0_L2A",
+      "asset_key": "nir",
+      "aoi_key": "48e7066dc2510b10454cbc305c90ecb47f71c0966d733d6ab4ec2630c8745724",
+      "status": "succeeded",
+      "stage": "complete",
+      "network_bytes": 2097153,
+      "http_status": 206,
+      "error_code": null,
+      "error_message": null,
+      "artifact_id": "fca9fc0ea7e68ceff3015929352513dbcdd0d9a9d9e5d75cb90ca393bc502adb",
+      "started_at": "2026-11-01T16:04:34.595573Z"
+    },
+    {
+      "attempt_id": "attempt-d80eecda-d16d-41fc-a47d-798bd0d694c8",
+      "run_id": "lab03-3d28c62d-bea9-4ade-8c5a-81f61253d6bd",
+      "item_id": "S2C_34UDA_20250605_0_L2A",
+      "asset_key": "red",
+      "aoi_key": "48e7066dc2510b10454cbc305c90ecb47f71c0966d733d6ab4ec2630c8745724",
+      "status": "reused",
+      "stage": "cache_verify",
+      "network_bytes": 0,
+      "http_status": null,
+      "error_code": null,
+      "error_message": null,
+      "artifact_id": "59d7497b6d0acac9cc3d487175e8d2cbd5d8612fbd1a58b9e37d8eb83d7c06e1",
+      "started_at": "2026-11-01T16:04:48.411015Z"
+    },
+    {
+      "attempt_id": "attempt-9d14441d-55c7-49a2-8e13-bed9a6d078e0",
+      "run_id": "lab03-3d28c62d-bea9-4ade-8c5a-81f61253d6bd",
+      "item_id": "S2C_34UDA_20250605_0_L2A",
+      "asset_key": "nir",
+      "aoi_key": "48e7066dc2510b10454cbc305c90ecb47f71c0966d733d6ab4ec2630c8745724",
+      "status": "reused",
+      "stage": "cache_verify",
+      "network_bytes": 0,
+      "http_status": null,
+      "error_code": null,
+      "error_message": null,
+      "artifact_id": "fca9fc0ea7e68ceff3015929352513dbcdd0d9a9d9e5d75cb90ca393bc502adb",
+      "started_at": "2026-11-01T16:04:48.458911Z"
+    },
+    {
+      "attempt_id": "attempt-4a98607e-f987-43cf-b8e0-403b5418af1e",
+      "run_id": "lab03-d47701f9-19a1-4694-9cbb-2687d45d0a07",
+      "item_id": "S2C_34UDA_20250605_0_L2A",
+      "asset_key": "red",
+      "aoi_key": "02da9b5e2c3e096cd57dbab81d7b4b56f91ccdbde37ec6385f8bd028b265ae54",
+      "status": "succeeded",
+      "stage": "complete",
+      "network_bytes": 2097153,
+      "http_status": 206,
+      "error_code": null,
+      "error_message": null,
+      "artifact_id": "633694143409a86b11635ceb253fad38df16180cb85d24e7179211ed8ce827c0",
+      "started_at": "2026-11-01T22:22:48.702787Z"
+    },
+    {
+      "attempt_id": "attempt-8929beff-9674-44fb-ab46-62ca89f18292",
+      "run_id": "lab03-d47701f9-19a1-4694-9cbb-2687d45d0a07",
+      "item_id": "S2C_34UDA_20250605_0_L2A",
+      "asset_key": "nir",
+      "aoi_key": "02da9b5e2c3e096cd57dbab81d7b4b56f91ccdbde37ec6385f8bd028b265ae54",
+      "status": "succeeded",
+      "stage": "complete",
+      "network_bytes": 2097153,
+      "http_status": 206,
+      "error_code": null,
+      "error_message": null,
+      "artifact_id": "d79fdf021855577bffb9718a3fa2733dc26d1065586efba3ef46414bb4f326e2",
+      "started_at": "2026-11-01T22:22:54.798883Z"
+    }
+  ],
+  "subsets": [
+    {
+      "subset_id": "5462fd6b1d071487ebf4f9872da69c339ad7568e2b9bd923d7e7ad1e40fb2e2b",
+      "asset_id": "d200bd3f0222f2ffeb3048b0ecf35731181a9b5eca9c66f280d9af95bfbad5a2",
+      "aoi_key": "48e7066dc2510b10454cbc305c90ecb47f71c0966d733d6ab4ec2630c8745724",
+      "status": "ready",
+      "latest_artifact_id": "59d7497b6d0acac9cc3d487175e8d2cbd5d8612fbd1a58b9e37d8eb83d7c06e1"
+    },
+    {
+      "subset_id": "f66f860d150ad4f0a41201bad30d12ab8f99fee60a4d3d25810569c6d44c6f0e",
+      "asset_id": "a2d220b3d0db776bd878281b88dd3d085be4ddc78042674be044110f202bdff8",
+      "aoi_key": "48e7066dc2510b10454cbc305c90ecb47f71c0966d733d6ab4ec2630c8745724",
+      "status": "ready",
+      "latest_artifact_id": "fca9fc0ea7e68ceff3015929352513dbcdd0d9a9d9e5d75cb90ca393bc502adb"
+    },
+    {
+      "subset_id": "af474ae8b95c187a87c4fe8443853bd4879dfe721c3d78ed4dc8e455a5e6d32e",
+      "asset_id": "d200bd3f0222f2ffeb3048b0ecf35731181a9b5eca9c66f280d9af95bfbad5a2",
+      "aoi_key": "02da9b5e2c3e096cd57dbab81d7b4b56f91ccdbde37ec6385f8bd028b265ae54",
+      "status": "ready",
+      "latest_artifact_id": "633694143409a86b11635ceb253fad38df16180cb85d24e7179211ed8ce827c0"
+    },
+    {
+      "subset_id": "9d71da0367a3fae0f0f93671894a6c003c4ad3bb3c64b810f29e5e64c56efa49",
+      "asset_id": "a2d220b3d0db776bd878281b88dd3d085be4ddc78042674be044110f202bdff8",
+      "aoi_key": "02da9b5e2c3e096cd57dbab81d7b4b56f91ccdbde37ec6385f8bd028b265ae54",
+      "status": "ready",
+      "latest_artifact_id": "d79fdf021855577bffb9718a3fa2733dc26d1065586efba3ef46414bb4f326e2"
+    }
+  ],
+  "locations": [
+    {
+      "location_id": "4a0733e7e73458bfc5b02e0d677461ca0281142f24fe5150f580b6393273ff99",
+      "artifact_id": "59d7497b6d0acac9cc3d487175e8d2cbd5d8612fbd1a58b9e37d8eb83d7c06e1",
+      "local_path": "C:\\Users\\mzawa\\Desktop\\mgr - II sem\\Authomated_Workflows_Windows\\Automated_Workflows\\Labs\\Lab03\\data\\S2C_34UDA_20250605_0_L2A\\48e7066dc251\\red-59d7497b6d0acac9.tif",
+      "status": "available",
+      "checked_at": "2026-11-01T16:04:48.441649Z"
+    },
+    {
+      "location_id": "15321282b56d7402819c92902838a0fd09c511502a5b4737b554b654866715c1",
+      "artifact_id": "fca9fc0ea7e68ceff3015929352513dbcdd0d9a9d9e5d75cb90ca393bc502adb",
+      "local_path": "C:\\Users\\mzawa\\Desktop\\mgr - II sem\\Authomated_Workflows_Windows\\Automated_Workflows\\Labs\\Lab03\\data\\S2C_34UDA_20250605_0_L2A\\48e7066dc251\\nir-fca9fc0ea7e68cef.tif",
+      "status": "available",
+      "checked_at": "2026-11-01T16:04:48.470342Z"
+    },
+    {
+      "location_id": "d43f2cd8ba1e06817134d2bf3e344c93342df8735619aae76f284fb7f9e60c2c",
+      "artifact_id": "633694143409a86b11635ceb253fad38df16180cb85d24e7179211ed8ce827c0",
+      "local_path": "C:\\Users\\mzawa\\Desktop\\mgr - II sem\\Authomated_Workflows_Windows\\Automated_Workflows\\Labs\\Lab03\\data\\S2C_34UDA_20250605_0_L2A\\02da9b5e2c3e\\red-633694143409a86b.tif",
+      "status": "available",
+      "checked_at": "2026-11-01T22:22:54.773247Z"
+    },
+    {
+      "location_id": "713aa06835cdb307d43663cb01e4ebf415eae78bdd5b75e745bbf4ca76bbf7b4",
+      "artifact_id": "d79fdf021855577bffb9718a3fa2733dc26d1065586efba3ef46414bb4f326e2",
+      "local_path": "C:\\Users\\mzawa\\Desktop\\mgr - II sem\\Authomated_Workflows_Windows\\Automated_Workflows\\Labs\\Lab03\\data\\S2C_34UDA_20250605_0_L2A\\02da9b5e2c3e\\nir-d79fdf021855577b.tif",
+      "status": "available",
+      "checked_at": "2026-11-01T22:23:00.293915Z"
+    }
+  ],
+  "runs": [
+    {
+      "run_id": "lab03-768de47c-aa5f-4427-9070-971f80482fa9",
+      "command": "acquire",
+      "status": "succeeded",
+      "error": null,
+      "started_at": "2026-11-01T16:04:27.399790Z"
+    },
+    {
+      "run_id": "lab03-3d28c62d-bea9-4ade-8c5a-81f61253d6bd",
+      "command": "acquire",
+      "status": "succeeded",
+      "error": null,
+      "started_at": "2026-11-01T16:04:48.384654Z"
+    },
+    {
+      "run_id": "lab03-d47701f9-19a1-4694-9cbb-2687d45d0a07",
+      "command": "acquire",
+      "status": "succeeded",
+      "error": null,
+      "started_at": "2026-11-01T22:22:48.659249Z"
+    }
+  ]
+}
