@@ -1,0 +1,1755 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Lab 05 batch report</title><style>body{font:16px system-ui;max-width:1120px;margin:35px auto;padding:0 24px;color:#172a3a;background:#f4f7f8}h1{font-size:32px}a{color:#11617c}.cards{display:flex;flex-wrap:wrap;gap:12px}.card,article{background:white;border:1px solid #ccd9df;border-radius:7px;padding:18px}.card{min-width:100px;text-decoration:none}strong{display:block;font-size:29px}article{margin:20px 0;scroll-margin-top:20px}pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:13px}code{overflow-wrap:anywhere}.note{padding:15px;background:#fff0c9}h2{font-size:19px}</style>
+    <h1>Can we explain this batch?</h1><p>Expected members: 6. Application attempts: 6. Producing attempts: 6.</p>
+    <p>Generated 2026-11-10T21:33:17.831723Z. Query version lab05_queries_v1.</p><p class="note">This is a saved report. File checks have their own times. Finite NDVI coverage does not establish clear sky coverage.</p>
+    <div class="cards"><a class="card" href="#state-ready">ready<strong>0</strong></a><a class="card" href="#state-complete">complete<strong>6</strong></a><a class="card" href="#state-blocked">blocked<strong>0</strong></a><a class="card" href="#state-unresolved">unresolved<strong>0</strong></a><a class="card" href="#state-failed">failed<strong>0</strong></a><a class="card" href="#state-unobserved">unobserved<strong>0</strong></a></div><p id="state-ready"><b>ready</b>: None</p><p id="state-complete"><b>complete</b>: <a href="#S2A_T34UDA_20250604T094637_L2A-east">S2A_T34UDA_20250604T094637_L2A-east</a>, <a href="#S2A_T34UDA_20250604T094637_L2A-river">S2A_T34UDA_20250604T094637_L2A-river</a>, <a href="#S2B_T34UDA_20250610T095316_L2A-east">S2B_T34UDA_20250610T095316_L2A-east</a>, <a href="#S2B_T34UDA_20250610T095316_L2A-river">S2B_T34UDA_20250610T095316_L2A-river</a>, <a href="#S2C_T34UDA_20250605T095638_L2A-east">S2C_T34UDA_20250605T095638_L2A-east</a>, <a href="#S2C_T34UDA_20250605T095638_L2A-river">S2C_T34UDA_20250605T095638_L2A-river</a></p><p id="state-blocked"><b>blocked</b>: None</p><p id="state-unresolved"><b>unresolved</b>: None</p><p id="state-failed"><b>failed</b>: None</p><p id="state-unobserved"><b>unobserved</b>: None</p><p><a href="preview.png">Open the real NDVI contact sheet</a></p><article id="S2A_T34UDA_20250604T094637_L2A-east"><h2>S2A_T34UDA_20250604T094637_L2A-east</h2>
+        <p>complete: Output verified</p>
+        <p>Next check: Review the mask policy and scientific QC before using the result.</p>
+        <p>Request: <code>request-1f0182b0a73902beebff016cf6021e940743df028fd8608a90adc46773ab5135</code></p>
+        <p>Observed: 2026-11-10T21:33:16.970973Z; evidence age at export: 0.859678 seconds.</p>
+        <p>47766 / 49494 finite pixels. Cloud suitability: unassessed.</p>
+        <details><summary>Verification and next check</summary><pre>{
+  &quot;artifact_id&quot;: &quot;output-6917f02b4e064cadbb3939c4e2aa4cf8d32d4940c39d25c19bbae8910a81a469&quot;,
+  &quot;attempt_id&quot;: &quot;attempt-7fd9ae9317614168903c21c3afeb8559&quot;,
+  &quot;context&quot;: {
+    &quot;active_attempt&quot;: null,
+    &quot;attempts_used&quot;: 1,
+    &quot;last_attempt&quot;: {
+      &quot;attempt_id&quot;: &quot;attempt-7fd9ae9317614168903c21c3afeb8559&quot;,
+      &quot;error_code&quot;: null,
+      &quot;error_message&quot;: null,
+      &quot;status&quot;: &quot;succeeded&quot;
+    },
+    &quot;max_attempts&quot;: 2,
+    &quot;missing_inputs&quot;: [],
+    &quot;validation_error&quot;: null,
+    &quot;verified_result&quot;: {
+      &quot;actual_sha256&quot;: &quot;6f711b13a73b1489427fb6893dadefd970145813af4eb4bf8a16f5ee731c4116&quot;,
+      &quot;actual_size_bytes&quot;: 163907,
+      &quot;artifact_id&quot;: &quot;output-6917f02b4e064cadbb3939c4e2aa4cf8d32d4940c39d25c19bbae8910a81a469&quot;,
+      &quot;attempt_id&quot;: &quot;attempt-7fd9ae9317614168903c21c3afeb8559&quot;,
+      &quot;catalogue_link_verified&quot;: true,
+      &quot;checked_at&quot;: &quot;2026-11-10T21:33:16.969800Z&quot;,
+      &quot;grid_verified&quot;: true,
+      &quot;path&quot;: &quot;C:\\Users\\mzawa\\Desktop\\mgr - II sem\\Authomated_Workflows_Windows\\Automated_Workflows\\Labs\\Lab05\\work\\outputs\\attempt-7fd9ae9317614168903c21c3afeb8559.ndvi.tif&quot;,
+      &quot;provenance_verified&quot;: true,
+      &quot;request_id&quot;: &quot;request-1f0182b0a73902beebff016cf6021e940743df028fd8608a90adc46773ab5135&quot;,
+      &quot;sha256&quot;: &quot;6f711b13a73b1489427fb6893dadefd970145813af4eb4bf8a16f5ee731c4116&quot;,
+      &quot;size_bytes&quot;: 163907,
+      &quot;validation&quot;: {
+        &quot;cloud_screened&quot;: false,
+        &quot;crs&quot;: &quot;EPSG:32634&quot;,
+        &quot;dtype&quot;: &quot;float32&quot;,
+        &quot;mask_policy&quot;: &quot;nodata_only&quot;,
+        &quot;maximum&quot;: 0.8950170278549194,
+        &quot;mean&quot;: 0.3555513322353363,
+        &quot;minimum&quot;: -0.36459845304489136,
+        &quot;nodata&quot;: &quot;NaN&quot;,
+        &quot;offset&quot;: 0.0,
+        &quot;outside_nominal_range&quot;: 0,
+        &quot;scale&quot;: 1.0,
+        &quot;shape&quot;: [
+          226,
+          219
+        ],
+        &quot;total_pixels&quot;: 49494,
+        &quot;transform&quot;: [
+          10.0,
+          0.0,
+          424090.0,
+          0.0,
+          -10.0,
+          5545840.0
+        ],
+        &quot;valid_fraction&quot;: 0.9650866771729907,
+        &quot;valid_pixels&quot;: 47766
+      }
+    }
+  },
+  &quot;inputs&quot;: [
+    {
+      &quot;artifact_id&quot;: &quot;input-57f6c4f353fbd6ec8586ba2f6acfe88fe97936d0439d5f08c54b53253ceac89c&quot;,
+      &quot;lineage&quot;: {
+        &quot;aoi&quot;: {
+          &quot;bbox&quot;: [
+            19.94,
+            50.04,
+            19.97,
+            50.06
+          ],
+          &quot;crs&quot;: &quot;EPSG:4326&quot;
+        },
+        &quot;aoi_key&quot;: &quot;394493aeb76b6cb3445ef68c015fdceb44e09d9e4972d96c66e58e8403b87355&quot;,
+        &quot;asset_id&quot;: &quot;74a138952d6b0c69c51eadf89694b8c6d87ad32c44d0cebf7795552229e60a08&quot;,
+        &quot;asset_key&quot;: &quot;red&quot;,
+        &quot;collection&quot;: &quot;sentinel-2-c1-l2a&quot;,
+        &quot;item_id&quot;: &quot;S2A_T34UDA_20250604T094637_L2A&quot;,
+        &quot;metadata_sha256&quot;: &quot;e6b117ac3a679b8356322640d3a0c86879502a3dce3c9b28ebf791a7b8f7f1b3&quot;,
+        &quot;recipe_version&quot;: &quot;native10m-wgs84-mask-v1&quot;,
+        &quot;source_url&quot;: &quot;https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/34/U/DA/2025/6/S2A_T34UDA_20250604T094637_L2A/B04.tif&quot;,
+        &quot;subset_id&quot;: &quot;13d19b99c9e501eafe206741584186324e75a6410c7aa3df61dcab89d15627e0&quot;
+      },
+      &quot;raster&quot;: {
+        &quot;aoi_bbox&quot;: [
+          19.94,
+          50.04,
+          19.97,
+          50.06
+        ],
+        &quot;asset_key&quot;: &quot;red&quot;,
+        &quot;crs&quot;: &quot;EPSG:32634&quot;,
+        &quot;dtype&quot;: &quot;uint16&quot;,
+        &quot;nodata&quot;: 0,
+        &quot;offset&quot;: -0.1,
+        &quot;raw_pixel_bytes&quot;: 98988,
+        &quot;recipe&quot;: &quot;native10m-wgs84-mask-v1&quot;,
+        &quot;scale&quot;: 0.0001,
+        &quot;shape&quot;: [
+          226,
+          219
+        ],
+        &quot;source_shape&quot;: [
+          10980,
+          10980
+        ],
+        &quot;source_transform&quot;: [
+          10.0,
+          0.0,
+          399960.0,
+          0.0,
+          -10.0,
+          5600040.0
+        ],
+        &quot;source_url&quot;: &quot;https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/34/U/DA/2025/6/S2A_T34UDA_20250604T094637_L2A/B04.tif&quot;,
+        &quot;transform&quot;: [
+          10.0,
+          0.0,
+          424090.0,
+          0.0,
+          -10.0,
+          5545840.0
+        ],
+        &quot;window&quot;: [
+          2413,
+          5420,
+          219,
+          226
+        ]
+      },
+      &quot;role&quot;: &quot;red&quot;,
+      &quot;sha256&quot;: &quot;6e696e135d64a62df163665fe273d0b945878c7864441a20ccddc5c04050c193&quot;,
+      &quot;size_bytes&quot;: 75278
+    },
+    {
+      &quot;artifact_id&quot;: &quot;input-7f632404735d63b7c4f283b50612ca85142c06f6504e331fc90fb007f6dfdc3e&quot;,
+      &quot;lineage&quot;: {
+        &quot;aoi&quot;: {
+          &quot;bbox&quot;: [
+            19.94,
+            50.04,
+            19.97,
+            50.06
+          ],
+          &quot;crs&quot;: &quot;EPSG:4326&quot;
+        },
+        &quot;aoi_key&quot;: &quot;394493aeb76b6cb3445ef68c015fdceb44e09d9e4972d96c66e58e8403b87355&quot;,
+        &quot;asset_id&quot;: &quot;0315f21313cfebfd12a148fbec3362416e353bae1e11182dfb918ee4564ccfd6&quot;,
+        &quot;asset_key&quot;: &quot;nir&quot;,
+        &quot;collection&quot;: &quot;sentinel-2-c1-l2a&quot;,
+        &quot;item_id&quot;: &quot;S2A_T34UDA_20250604T094637_L2A&quot;,
+        &quot;metadata_sha256&quot;: &quot;c02029094b56e1a5756511a55e815a2a14c0e936b73502ed31c5f28f06e8a773&quot;,
+        &quot;recipe_version&quot;: &quot;native10m-wgs84-mask-v1&quot;,
+        &quot;source_url&quot;: &quot;https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/34/U/DA/2025/6/S2A_T34UDA_20250604T094637_L2A/B08.tif&quot;,
+        &quot;subset_id&quot;: &quot;2f856e16bb7f5647f241944add7da9e868b5071a30e7fccb9940fe60910b70c0&quot;
+      },
+      &quot;raster&quot;: {
+        &quot;aoi_bbox&quot;: [
+          19.94,
+          50.04,
+          19.97,
+          50.06
+        ],
+        &quot;asset_key&quot;: &quot;nir&quot;,
+        &quot;crs&quot;: &quot;EPSG:32634&quot;,
+        &quot;dtype&quot;: &quot;uint16&quot;,
+        &quot;nodata&quot;: 0,
+        &quot;offset&quot;: -0.1,
+        &quot;raw_pixel_bytes&quot;: 98988,
+        &quot;recipe&quot;: &quot;native10m-wgs84-mask-v1&quot;,
+        &quot;scale&quot;: 0.0001,
+        &quot;shape&quot;: [
+          226,
+          219
+        ],
+        &quot;source_shape&quot;: [
+          10980,
+          10980
+        ],
+        &quot;source_transform&quot;: [
+          10.0,
+          0.0,
+          399960.0,
+          0.0,
+          -10.0,
+          5600040.0
+        ],
+        &quot;source_url&quot;: &quot;https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/34/U/DA/2025/6/S2A_T34UDA_20250604T094637_L2A/B08.tif&quot;,
+        &quot;transform&quot;: [
+          10.0,
+          0.0,
+          424090.0,
+          0.0,
+          -10.0,
+          5545840.0
+        ],
+        &quot;window&quot;: [
+          2413,
+          5420,
+          219,
+          226
+        ]
+      },
+      &quot;role&quot;: &quot;nir&quot;,
+      &quot;sha256&quot;: &quot;588932561a64ae1cbd87e086bff36c277fecf50adafa0851cb36b5f6c726d8be&quot;,
+      &quot;size_bytes&quot;: 80126
+    }
+  ],
+  &quot;location_checks&quot;: [
+    {
+      &quot;artifact_id&quot;: &quot;output-6917f02b4e064cadbb3939c4e2aa4cf8d32d4940c39d25c19bbae8910a81a469&quot;,
+      &quot;checked_at&quot;: &quot;2026-11-10T21:33:16.966441Z&quot;,
+      &quot;error&quot;: null,
+      &quot;location_id&quot;: &quot;4ac361fc929882c10f04a1c6c9780e91e1b11da6123d5883e590aeae9e7434f3&quot;,
+      &quot;path&quot;: &quot;C:\\Users\\mzawa\\Desktop\\mgr - II sem\\Authomated_Workflows_Windows\\Automated_Workflows\\Labs\\Lab05\\work\\outputs\\attempt-7fd9ae9317614168903c21c3afeb8559.ndvi.tif&quot;,
+      &quot;status&quot;: &quot;available&quot;
+    }
+  ],
+  &quot;member_id&quot;: &quot;S2A_T34UDA_20250604T094637_L2A-east&quot;,
+  &quot;next_check&quot;: &quot;Review the mask policy and scientific QC before using the result.&quot;,
+  &quot;reason&quot;: &quot;Output verified&quot;,
+  &quot;rejected_results&quot;: [],
+  &quot;request_id&quot;: &quot;request-1f0182b0a73902beebff016cf6021e940743df028fd8608a90adc46773ab5135&quot;,
+  &quot;result&quot;: {
+    &quot;actual_sha256&quot;: &quot;6f711b13a73b1489427fb6893dadefd970145813af4eb4bf8a16f5ee731c4116&quot;,
+    &quot;actual_size_bytes&quot;: 163907,
+    &quot;artifact_id&quot;: &quot;output-6917f02b4e064cadbb3939c4e2aa4cf8d32d4940c39d25c19bbae8910a81a469&quot;,
+    &quot;attempt_id&quot;: &quot;attempt-7fd9ae9317614168903c21c3afeb8559&quot;,
+    &quot;catalogue_link_verified&quot;: true,
+    &quot;checked_at&quot;: &quot;2026-11-10T21:33:16.969800Z&quot;,
+    &quot;grid_verified&quot;: true,
+    &quot;path&quot;: &quot;C:\\Users\\mzawa\\Desktop\\mgr - II sem\\Authomated_Workflows_Windows\\Automated_Workflows\\Labs\\Lab05\\work\\outputs\\attempt-7fd9ae9317614168903c21c3afeb8559.ndvi.tif&quot;,
+    &quot;provenance_verified&quot;: true,
+    &quot;request_id&quot;: &quot;request-1f0182b0a73902beebff016cf6021e940743df028fd8608a90adc46773ab5135&quot;,
+    &quot;sha256&quot;: &quot;6f711b13a73b1489427fb6893dadefd970145813af4eb4bf8a16f5ee731c4116&quot;,
+    &quot;size_bytes&quot;: 163907,
+    &quot;validation&quot;: {
+      &quot;cloud_screened&quot;: false,
+      &quot;crs&quot;: &quot;EPSG:32634&quot;,
+      &quot;dtype&quot;: &quot;float32&quot;,
+      &quot;mask_policy&quot;: &quot;nodata_only&quot;,
+      &quot;maximum&quot;: 0.8950170278549194,
+      &quot;mean&quot;: 0.3555513322353363,
+      &quot;minimum&quot;: -0.36459845304489136,
+      &quot;nodata&quot;: &quot;NaN&quot;,
+      &quot;offset&quot;: 0.0,
+      &quot;outside_nominal_range&quot;: 0,
+      &quot;scale&quot;: 1.0,
+      &quot;shape&quot;: [
+        226,
+        219
+      ],
+      &quot;total_pixels&quot;: 49494,
+      &quot;transform&quot;: [
+        10.0,
+        0.0,
+        424090.0,
+        0.0,
+        -10.0,
+        5545840.0
+      ],
+      &quot;valid_fraction&quot;: 0.9650866771729907,
+      &quot;valid_pixels&quot;: 47766
+    }
+  },
+  &quot;state&quot;: &quot;complete&quot;
+}</pre></details></article><article id="S2A_T34UDA_20250604T094637_L2A-river"><h2>S2A_T34UDA_20250604T094637_L2A-river</h2>
+        <p>complete: Output verified</p>
+        <p>Next check: Review the mask policy and scientific QC before using the result.</p>
+        <p>Request: <code>request-8f013a06e81e7b70d60663f0b667b3ae88834e95473fbd7ce861ee1668ba8920</code></p>
+        <p>Observed: 2026-11-10T21:33:16.952451Z; evidence age at export: 0.8782 seconds.</p>
+        <p>47766 / 49713 finite pixels. Cloud suitability: unassessed.</p>
+        <details><summary>Verification and next check</summary><pre>{
+  &quot;artifact_id&quot;: &quot;output-088227a484e36c6a0a674691fd9685056899af6b8fa33d71c7d55efecf505e37&quot;,
+  &quot;attempt_id&quot;: &quot;attempt-39acb11edae64c44983e1c11e94e2080&quot;,
+  &quot;context&quot;: {
+    &quot;active_attempt&quot;: null,
+    &quot;attempts_used&quot;: 1,
+    &quot;last_attempt&quot;: {
+      &quot;attempt_id&quot;: &quot;attempt-39acb11edae64c44983e1c11e94e2080&quot;,
+      &quot;error_code&quot;: null,
+      &quot;error_message&quot;: null,
+      &quot;status&quot;: &quot;succeeded&quot;
+    },
+    &quot;max_attempts&quot;: 2,
+    &quot;missing_inputs&quot;: [],
+    &quot;validation_error&quot;: null,
+    &quot;verified_result&quot;: {
+      &quot;actual_sha256&quot;: &quot;5a07efe7d620a657ec48e5eb3e5569388980a75606c02b74e885e9fb8790ea1f&quot;,
+      &quot;actual_size_bytes&quot;: 161723,
+      &quot;artifact_id&quot;: &quot;output-088227a484e36c6a0a674691fd9685056899af6b8fa33d71c7d55efecf505e37&quot;,
+      &quot;attempt_id&quot;: &quot;attempt-39acb11edae64c44983e1c11e94e2080&quot;,
+      &quot;catalogue_link_verified&quot;: true,
+      &quot;checked_at&quot;: &quot;2026-11-10T21:33:16.950939Z&quot;,
+      &quot;grid_verified&quot;: true,
+      &quot;path&quot;: &quot;C:\\Users\\mzawa\\Desktop\\mgr - II sem\\Authomated_Workflows_Windows\\Automated_Workflows\\Labs\\Lab05\\work\\outputs\\attempt-39acb11edae64c44983e1c11e94e2080.ndvi.tif&quot;,
+      &quot;provenance_verified&quot;: true,
+      &quot;request_id&quot;: &quot;request-8f013a06e81e7b70d60663f0b667b3ae88834e95473fbd7ce861ee1668ba8920&quot;,
+      &quot;sha256&quot;: &quot;5a07efe7d620a657ec48e5eb3e5569388980a75606c02b74e885e9fb8790ea1f&quot;,
+      &quot;size_bytes&quot;: 161723,
+      &quot;validation&quot;: {
+        &quot;cloud_screened&quot;: false,
+        &quot;crs&quot;: &quot;EPSG:32634&quot;,
+        &quot;dtype&quot;: &quot;float32&quot;,
+        &quot;mask_policy&quot;: &quot;nodata_only&quot;,
+        &quot;maximum&quot;: 0.8816872239112854,
+        &quot;mean&quot;: 0.4487844705581665,
+        &quot;minimum&quot;: -0.10505836457014084,
+        &quot;nodata&quot;: &quot;NaN&quot;,
+        &quot;offset&quot;: 0.0,
+        &quot;outside_nominal_range&quot;: 0,
+        &quot;scale&quot;: 1.0,
+        &quot;shape&quot;: [
+          227,
+          219
+        ],
+        &quot;total_pixels&quot;: 49713,
+        &quot;transform&quot;: [
+          10.0,
+          0.0,
+          421940.0,
+          0.0,
+          -10.0,
+          5545880.0
+        ],
+        &quot;valid_fraction&quot;: 0.9608351940136383,
+        &quot;valid_pixels&quot;: 47766
+      }
+    }
+  },
+  &quot;inputs&quot;: [
+    {
+      &quot;artifact_id&quot;: &quot;input-331652850adaf4329993d875808c8f484f0193258669c91175a7e127aa51489c&quot;,
+      &quot;lineage&quot;: {
+        &quot;aoi&quot;: {
+          &quot;bbox&quot;: [
+            19.91,
+            50.04,
+            19.94,
+            50.06
+          ],
+          &quot;crs&quot;: &quot;EPSG:4326&quot;
+        },
+        &quot;aoi_key&quot;: &quot;48e7066dc2510b10454cbc305c90ecb47f71c0966d733d6ab4ec2630c8745724&quot;,
+        &quot;asset_id&quot;: &quot;74a138952d6b0c69c51eadf89694b8c6d87ad32c44d0cebf7795552229e60a08&quot;,
+        &quot;asset_key&quot;: &quot;red&quot;,
+        &quot;collection&quot;: &quot;sentinel-2-c1-l2a&quot;,
+        &quot;item_id&quot;: &quot;S2A_T34UDA_20250604T094637_L2A&quot;,
+        &quot;metadata_sha256&quot;: &quot;e6b117ac3a679b8356322640d3a0c86879502a3dce3c9b28ebf791a7b8f7f1b3&quot;,
+        &quot;recipe_version&quot;: &quot;native10m-wgs84-mask-v1&quot;,
+        &quot;source_url&quot;: &quot;https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/34/U/DA/2025/6/S2A_T34UDA_20250604T094637_L2A/B04.tif&quot;,
+        &quot;subset_id&quot;: &quot;605eae38ac9d08e4a04c6ff64319c2fa97fa109589f3c2a6fdfc27541c6a1fd2&quot;
+      },
+      &quot;raster&quot;: {
+        &quot;aoi_bbox&quot;: [
+          19.91,
+          50.04,
+          19.94,
+          50.06
+        ],
+        &quot;asset_key&quot;: &quot;red&quot;,
+        &quot;crs&quot;: &quot;EPSG:32634&quot;,
+        &quot;dtype&quot;: &quot;uint16&quot;,
+        &quot;nodata&quot;: 0,
+        &quot;offset&quot;: -0.1,
+        &quot;raw_pixel_bytes&quot;: 99426,
+        &quot;recipe&quot;: &quot;native10m-wgs84-mask-v1&quot;,
+        &quot;scale&quot;: 0.0001,
+        &quot;shape&quot;: [
+          227,
+          219
+        ],
+        &quot;source_shape&quot;: [
+          10980,
+          10980
+        ],
+        &quot;source_transform&quot;: [
+          10.0,
+          0.0,
+          399960.0,
+          0.0,
+          -10.0,
+          5600040.0
+        ],
+        &quot;source_url&quot;: &quot;https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/34/U/DA/2025/6/S2A_T34UDA_20250604T094637_L2A/B04.tif&quot;,
+        &quot;transform&quot;: [
+          10.0,
+          0.0,
+          421940.0,
+          0.0,
+          -10.0,
+          5545880.0
+        ],
+        &quot;window&quot;: [
+          2198,
+          5416,
+          219,
+          227
+        ]
+      },
+      &quot;role&quot;: &quot;red&quot;,
+      &quot;sha256&quot;: &quot;ef3ca867df64c8b756ddd817d1ec25c6722f6e88a734863a63a95a9986abf684&quot;,
+      &quot;size_bytes&quot;: 74802
+    },
+    {
+      &quot;artifact_id&quot;: &quot;input-fba7326c264aca47b39ccef5b6423d14e8fab639d62b4fa5c47fe5d65fa82232&quot;,
+      &quot;lineage&quot;: {
+        &quot;aoi&quot;: {
+          &quot;bbox&quot;: [
+            19.91,
+            50.04,
+            19.94,
+            50.06
+          ],
+          &quot;crs&quot;: &quot;EPSG:4326&quot;
+        },
+        &quot;aoi_key&quot;: &quot;48e7066dc2510b10454cbc305c90ecb47f71c0966d733d6ab4ec2630c8745724&quot;,
+        &quot;asset_id&quot;: &quot;0315f21313cfebfd12a148fbec3362416e353bae1e11182dfb918ee4564ccfd6&quot;,
+        &quot;asset_key&quot;: &quot;nir&quot;,
+        &quot;collection&quot;: &quot;sentinel-2-c1-l2a&quot;,
+        &quot;item_id&quot;: &quot;S2A_T34UDA_20250604T094637_L2A&quot;,
+        &quot;metadata_sha256&quot;: &quot;c02029094b56e1a5756511a55e815a2a14c0e936b73502ed31c5f28f06e8a773&quot;,
+        &quot;recipe_version&quot;: &quot;native10m-wgs84-mask-v1&quot;,
+        &quot;source_url&quot;: &quot;https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/34/U/DA/2025/6/S2A_T34UDA_20250604T094637_L2A/B08.tif&quot;,
+        &quot;subset_id&quot;: &quot;51a72cca9e72c2a59b1c9e8757db67fa23b52779ee91396aac1e0970d174cdf5&quot;
+      },
+      &quot;raster&quot;: {
+        &quot;aoi_bbox&quot;: [
+          19.91,
+          50.04,
+          19.94,
+          50.06
+        ],
+        &quot;asset_key&quot;: &quot;nir&quot;,
+        &quot;crs&quot;: &quot;EPSG:32634&quot;,
+        &quot;dtype&quot;: &quot;uint16&quot;,
+        &quot;nodata&quot;: 0,
+        &quot;offset&quot;: -0.1,
+        &quot;raw_pixel_bytes&quot;: 99426,
+        &quot;recipe&quot;: &quot;native10m-wgs84-mask-v1&quot;,
+        &quot;scale&quot;: 0.0001,
+        &quot;shape&quot;: [
+          227,
+          219
+        ],
+        &quot;source_shape&quot;: [
+          10980,
+          10980
+        ],
+        &quot;source_transform&quot;: [
+          10.0,
+          0.0,
+          399960.0,
+          0.0,
+          -10.0,
+          5600040.0
+        ],
+        &quot;source_url&quot;: &quot;https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/34/U/DA/2025/6/S2A_T34UDA_20250604T094637_L2A/B08.tif&quot;,
+        &quot;transform&quot;: [
+          10.0,
+          0.0,
+          421940.0,
+          0.0,
+          -10.0,
+          5545880.0
+        ],
+        &quot;window&quot;: [
+          2198,
+          5416,
+          219,
+          227
+        ]
+      },
+      &quot;role&quot;: &quot;nir&quot;,
+      &quot;sha256&quot;: &quot;e30bbf323834e7602031458e2b00f3d4b5e2ac06cd22a7967acf2032c78ec25c&quot;,
+      &quot;size_bytes&quot;: 80020
+    }
+  ],
+  &quot;location_checks&quot;: [
+    {
+      &quot;artifact_id&quot;: &quot;output-088227a484e36c6a0a674691fd9685056899af6b8fa33d71c7d55efecf505e37&quot;,
+      &quot;checked_at&quot;: &quot;2026-11-10T21:33:16.946837Z&quot;,
+      &quot;error&quot;: null,
+      &quot;location_id&quot;: &quot;131df3a45387e1706fa1380692a049786f88f9bc866ed869298d46910fe826a7&quot;,
+      &quot;path&quot;: &quot;C:\\Users\\mzawa\\Desktop\\mgr - II sem\\Authomated_Workflows_Windows\\Automated_Workflows\\Labs\\Lab05\\work\\outputs\\attempt-39acb11edae64c44983e1c11e94e2080.ndvi.tif&quot;,
+      &quot;status&quot;: &quot;available&quot;
+    }
+  ],
+  &quot;member_id&quot;: &quot;S2A_T34UDA_20250604T094637_L2A-river&quot;,
+  &quot;next_check&quot;: &quot;Review the mask policy and scientific QC before using the result.&quot;,
+  &quot;reason&quot;: &quot;Output verified&quot;,
+  &quot;rejected_results&quot;: [],
+  &quot;request_id&quot;: &quot;request-8f013a06e81e7b70d60663f0b667b3ae88834e95473fbd7ce861ee1668ba8920&quot;,
+  &quot;result&quot;: {
+    &quot;actual_sha256&quot;: &quot;5a07efe7d620a657ec48e5eb3e5569388980a75606c02b74e885e9fb8790ea1f&quot;,
+    &quot;actual_size_bytes&quot;: 161723,
+    &quot;artifact_id&quot;: &quot;output-088227a484e36c6a0a674691fd9685056899af6b8fa33d71c7d55efecf505e37&quot;,
+    &quot;attempt_id&quot;: &quot;attempt-39acb11edae64c44983e1c11e94e2080&quot;,
+    &quot;catalogue_link_verified&quot;: true,
+    &quot;checked_at&quot;: &quot;2026-11-10T21:33:16.950939Z&quot;,
+    &quot;grid_verified&quot;: true,
+    &quot;path&quot;: &quot;C:\\Users\\mzawa\\Desktop\\mgr - II sem\\Authomated_Workflows_Windows\\Automated_Workflows\\Labs\\Lab05\\work\\outputs\\attempt-39acb11edae64c44983e1c11e94e2080.ndvi.tif&quot;,
+    &quot;provenance_verified&quot;: true,
+    &quot;request_id&quot;: &quot;request-8f013a06e81e7b70d60663f0b667b3ae88834e95473fbd7ce861ee1668ba8920&quot;,
+    &quot;sha256&quot;: &quot;5a07efe7d620a657ec48e5eb3e5569388980a75606c02b74e885e9fb8790ea1f&quot;,
+    &quot;size_bytes&quot;: 161723,
+    &quot;validation&quot;: {
+      &quot;cloud_screened&quot;: false,
+      &quot;crs&quot;: &quot;EPSG:32634&quot;,
+      &quot;dtype&quot;: &quot;float32&quot;,
+      &quot;mask_policy&quot;: &quot;nodata_only&quot;,
+      &quot;maximum&quot;: 0.8816872239112854,
+      &quot;mean&quot;: 0.4487844705581665,
+      &quot;minimum&quot;: -0.10505836457014084,
+      &quot;nodata&quot;: &quot;NaN&quot;,
+      &quot;offset&quot;: 0.0,
+      &quot;outside_nominal_range&quot;: 0,
+      &quot;scale&quot;: 1.0,
+      &quot;shape&quot;: [
+        227,
+        219
+      ],
+      &quot;total_pixels&quot;: 49713,
+      &quot;transform&quot;: [
+        10.0,
+        0.0,
+        421940.0,
+        0.0,
+        -10.0,
+        5545880.0
+      ],
+      &quot;valid_fraction&quot;: 0.9608351940136383,
+      &quot;valid_pixels&quot;: 47766
+    }
+  },
+  &quot;state&quot;: &quot;complete&quot;
+}</pre></details></article><article id="S2B_T34UDA_20250610T095316_L2A-east"><h2>S2B_T34UDA_20250610T095316_L2A-east</h2>
+        <p>complete: Output verified</p>
+        <p>Next check: Review the mask policy and scientific QC before using the result.</p>
+        <p>Request: <code>request-b5b1772ef1fc5ee4e9659d4665f1e1cb9f1bac8e378596e9862fbe26825fbc32</code></p>
+        <p>Observed: 2026-11-10T21:33:17.038475Z; evidence age at export: 0.792176 seconds.</p>
+        <p>47766 / 49494 finite pixels. Cloud suitability: unassessed.</p>
+        <details><summary>Verification and next check</summary><pre>{
+  &quot;artifact_id&quot;: &quot;output-218b1682272ae12e2a031afeb9ec02b723752338f1dfa40b8cb92d22eb6fbf06&quot;,
+  &quot;attempt_id&quot;: &quot;attempt-e7e79b1b0e0a42fcb146624c1cca3cfe&quot;,
+  &quot;context&quot;: {
+    &quot;active_attempt&quot;: null,
+    &quot;attempts_used&quot;: 1,
+    &quot;last_attempt&quot;: {
+      &quot;attempt_id&quot;: &quot;attempt-e7e79b1b0e0a42fcb146624c1cca3cfe&quot;,
+      &quot;error_code&quot;: null,
+      &quot;error_message&quot;: null,
+      &quot;status&quot;: &quot;succeeded&quot;
+    },
+    &quot;max_attempts&quot;: 2,
+    &quot;missing_inputs&quot;: [],
+    &quot;validation_error&quot;: null,
+    &quot;verified_result&quot;: {
+      &quot;actual_sha256&quot;: &quot;2aa0afa4320c89dd20d37b086479a3b712babbd3c49f526d8351201555ec8d2d&quot;,
+      &quot;actual_size_bytes&quot;: 162649,
+      &quot;artifact_id&quot;: &quot;output-218b1682272ae12e2a031afeb9ec02b723752338f1dfa40b8cb92d22eb6fbf06&quot;,
+      &quot;attempt_id&quot;: &quot;attempt-e7e79b1b0e0a42fcb146624c1cca3cfe&quot;,
+      &quot;catalogue_link_verified&quot;: true,
+      &quot;checked_at&quot;: &quot;2026-11-10T21:33:17.036808Z&quot;,
+      &quot;grid_verified&quot;: true,
+      &quot;path&quot;: &quot;C:\\Users\\mzawa\\Desktop\\mgr - II sem\\Authomated_Workflows_Windows\\Automated_Workflows\\Labs\\Lab05\\work\\outputs\\attempt-e7e79b1b0e0a42fcb146624c1cca3cfe.ndvi.tif&quot;,
+      &quot;provenance_verified&quot;: true,
+      &quot;request_id&quot;: &quot;request-b5b1772ef1fc5ee4e9659d4665f1e1cb9f1bac8e378596e9862fbe26825fbc32&quot;,
+      &quot;sha256&quot;: &quot;2aa0afa4320c89dd20d37b086479a3b712babbd3c49f526d8351201555ec8d2d&quot;,
+      &quot;size_bytes&quot;: 162649,
+      &quot;validation&quot;: {
+        &quot;cloud_screened&quot;: false,
+        &quot;crs&quot;: &quot;EPSG:32634&quot;,
+        &quot;dtype&quot;: &quot;float32&quot;,
+        &quot;mask_policy&quot;: &quot;nodata_only&quot;,
+        &quot;maximum&quot;: 0.9179810881614685,
+        &quot;mean&quot;: 0.3971240520477295,
+        &quot;minimum&quot;: -0.24483776092529297,
+        &quot;nodata&quot;: &quot;NaN&quot;,
+        &quot;offset&quot;: 0.0,
+        &quot;outside_nominal_range&quot;: 0,
+        &quot;scale&quot;: 1.0,
+        &quot;shape&quot;: [
+          226,
+          219
+        ],
+        &quot;total_pixels&quot;: 49494,
+        &quot;transform&quot;: [
+          10.0,
+          0.0,
+          424090.0,
+          0.0,
+          -10.0,
+          5545840.0
+        ],
+        &quot;valid_fraction&quot;: 0.9650866771729907,
+        &quot;valid_pixels&quot;: 47766
+      }
+    }
+  },
+  &quot;inputs&quot;: [
+    {
+      &quot;artifact_id&quot;: &quot;input-97e3b8759f24bebfc4050194d9ceb5672e662e3c06251df43186a56acf8c3a46&quot;,
+      &quot;lineage&quot;: {
+        &quot;aoi&quot;: {
+          &quot;bbox&quot;: [
+            19.94,
+            50.04,
+            19.97,
+            50.06
+          ],
+          &quot;crs&quot;: &quot;EPSG:4326&quot;
+        },
+        &quot;aoi_key&quot;: &quot;394493aeb76b6cb3445ef68c015fdceb44e09d9e4972d96c66e58e8403b87355&quot;,
+        &quot;asset_id&quot;: &quot;ad9f9a8dd240482b973295afc2c8bf1986473da9d9df148cfbc0ce5280802120&quot;,
+        &quot;asset_key&quot;: &quot;red&quot;,
+        &quot;collection&quot;: &quot;sentinel-2-c1-l2a&quot;,
+        &quot;item_id&quot;: &quot;S2B_T34UDA_20250610T095316_L2A&quot;,
+        &quot;metadata_sha256&quot;: &quot;e26e9e717397aba503fb56d2fb42aa3d01a832564e93ae30618fc872d7030dc7&quot;,
+        &quot;recipe_version&quot;: &quot;native10m-wgs84-mask-v1&quot;,
+        &quot;source_url&quot;: &quot;https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/34/U/DA/2025/6/S2B_T34UDA_20250610T095316_L2A/B04.tif&quot;,
+        &quot;subset_id&quot;: &quot;92b63a04d79f2d2ff93298e44e793b13a79a54ee31cd5c9f5dc5f921373d544a&quot;
+      },
+      &quot;raster&quot;: {
+        &quot;aoi_bbox&quot;: [
+          19.94,
+          50.04,
+          19.97,
+          50.06
+        ],
+        &quot;asset_key&quot;: &quot;red&quot;,
+        &quot;crs&quot;: &quot;EPSG:32634&quot;,
+        &quot;dtype&quot;: &quot;uint16&quot;,
+        &quot;nodata&quot;: 0,
+        &quot;offset&quot;: -0.1,
+        &quot;raw_pixel_bytes&quot;: 98988,
+        &quot;recipe&quot;: &quot;native10m-wgs84-mask-v1&quot;,
+        &quot;scale&quot;: 0.0001,
+        &quot;shape&quot;: [
+          226,
+          219
+        ],
+        &quot;source_shape&quot;: [
+          10980,
+          10980
+        ],
+        &quot;source_transform&quot;: [
+          10.0,
+          0.0,
+          399960.0,
+          0.0,
+          -10.0,
+          5600040.0
+        ],
+        &quot;source_url&quot;: &quot;https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/34/U/DA/2025/6/S2B_T34UDA_20250610T095316_L2A/B04.tif&quot;,
+        &quot;transform&quot;: [
+          10.0,
+          0.0,
+          424090.0,
+          0.0,
+          -10.0,
+          5545840.0
+        ],
+        &quot;window&quot;: [
+          2413,
+          5420,
+          219,
+          226
+        ]
+      },
+      &quot;role&quot;: &quot;red&quot;,
+      &quot;sha256&quot;: &quot;7bac18ef40bfca0d288368f3fe46168694931ed982ce53f76a552d48532af990&quot;,
+      &quot;size_bytes&quot;: 75714
+    },
+    {
+      &quot;artifact_id&quot;: &quot;input-fb80b6dc90471b5f5e759cee0b7b10b9cd60b2ad605f3ec8a426f0c64f0efd50&quot;,
+      &quot;lineage&quot;: {
+        &quot;aoi&quot;: {
+          &quot;bbox&quot;: [
+            19.94,
+            50.04,
+            19.97,
+            50.06
+          ],
+          &quot;crs&quot;: &quot;EPSG:4326&quot;
+        },
+        &quot;aoi_key&quot;: &quot;394493aeb76b6cb3445ef68c015fdceb44e09d9e4972d96c66e58e8403b87355&quot;,
+        &quot;asset_id&quot;: &quot;cceb3178db73ea5890ddbcc517b05e7d4f2c4134b5d38674e203aa79fd34729b&quot;,
+        &quot;asset_key&quot;: &quot;nir&quot;,
+        &quot;collection&quot;: &quot;sentinel-2-c1-l2a&quot;,
+        &quot;item_id&quot;: &quot;S2B_T34UDA_20250610T095316_L2A&quot;,
+        &quot;metadata_sha256&quot;: &quot;3a7d443bd1624c5e26fc5ab9892b1281f91591e180d7daa29474788b2b180aad&quot;,
+        &quot;recipe_version&quot;: &quot;native10m-wgs84-mask-v1&quot;,
+        &quot;source_url&quot;: &quot;https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/34/U/DA/2025/6/S2B_T34UDA_20250610T095316_L2A/B08.tif&quot;,
+        &quot;subset_id&quot;: &quot;1bddcf53c27d895355cbf024848cf39808a30fb99414d211799bc291ea64247b&quot;
+      },
+      &quot;raster&quot;: {
+        &quot;aoi_bbox&quot;: [
+          19.94,
+          50.04,
+          19.97,
+          50.06
+        ],
+        &quot;asset_key&quot;: &quot;nir&quot;,
+        &quot;crs&quot;: &quot;EPSG:32634&quot;,
+        &quot;dtype&quot;: &quot;uint16&quot;,
+        &quot;nodata&quot;: 0,
+        &quot;offset&quot;: -0.1,
+        &quot;raw_pixel_bytes&quot;: 98988,
+        &quot;recipe&quot;: &quot;native10m-wgs84-mask-v1&quot;,
+        &quot;scale&quot;: 0.0001,
+        &quot;shape&quot;: [
+          226,
+          219
+        ],
+        &quot;source_shape&quot;: [
+          10980,
+          10980
+        ],
+        &quot;source_transform&quot;: [
+          10.0,
+          0.0,
+          399960.0,
+          0.0,
+          -10.0,
+          5600040.0
+        ],
+        &quot;source_url&quot;: &quot;https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/34/U/DA/2025/6/S2B_T34UDA_20250610T095316_L2A/B08.tif&quot;,
+        &quot;transform&quot;: [
+          10.0,
+          0.0,
+          424090.0,
+          0.0,
+          -10.0,
+          5545840.0
+        ],
+        &quot;window&quot;: [
+          2413,
+          5420,
+          219,
+          226
+        ]
+      },
+      &quot;role&quot;: &quot;nir&quot;,
+      &quot;sha256&quot;: &quot;db1fd4e1e9928f139fa06c6106fb51914e934d222a0a18c3bd9617357cb9c984&quot;,
+      &quot;size_bytes&quot;: 76364
+    }
+  ],
+  &quot;location_checks&quot;: [
+    {
+      &quot;artifact_id&quot;: &quot;output-218b1682272ae12e2a031afeb9ec02b723752338f1dfa40b8cb92d22eb6fbf06&quot;,
+      &quot;checked_at&quot;: &quot;2026-11-10T21:33:17.033026Z&quot;,
+      &quot;error&quot;: null,
+      &quot;location_id&quot;: &quot;d12646a31df6bd51e2ae1f4257c0e049f9ff11bd18366687d15dc95ca09d9b40&quot;,
+      &quot;path&quot;: &quot;C:\\Users\\mzawa\\Desktop\\mgr - II sem\\Authomated_Workflows_Windows\\Automated_Workflows\\Labs\\Lab05\\work\\outputs\\attempt-e7e79b1b0e0a42fcb146624c1cca3cfe.ndvi.tif&quot;,
+      &quot;status&quot;: &quot;available&quot;
+    }
+  ],
+  &quot;member_id&quot;: &quot;S2B_T34UDA_20250610T095316_L2A-east&quot;,
+  &quot;next_check&quot;: &quot;Review the mask policy and scientific QC before using the result.&quot;,
+  &quot;reason&quot;: &quot;Output verified&quot;,
+  &quot;rejected_results&quot;: [],
+  &quot;request_id&quot;: &quot;request-b5b1772ef1fc5ee4e9659d4665f1e1cb9f1bac8e378596e9862fbe26825fbc32&quot;,
+  &quot;result&quot;: {
+    &quot;actual_sha256&quot;: &quot;2aa0afa4320c89dd20d37b086479a3b712babbd3c49f526d8351201555ec8d2d&quot;,
+    &quot;actual_size_bytes&quot;: 162649,
+    &quot;artifact_id&quot;: &quot;output-218b1682272ae12e2a031afeb9ec02b723752338f1dfa40b8cb92d22eb6fbf06&quot;,
+    &quot;attempt_id&quot;: &quot;attempt-e7e79b1b0e0a42fcb146624c1cca3cfe&quot;,
+    &quot;catalogue_link_verified&quot;: true,
+    &quot;checked_at&quot;: &quot;2026-11-10T21:33:17.036808Z&quot;,
+    &quot;grid_verified&quot;: true,
+    &quot;path&quot;: &quot;C:\\Users\\mzawa\\Desktop\\mgr - II sem\\Authomated_Workflows_Windows\\Automated_Workflows\\Labs\\Lab05\\work\\outputs\\attempt-e7e79b1b0e0a42fcb146624c1cca3cfe.ndvi.tif&quot;,
+    &quot;provenance_verified&quot;: true,
+    &quot;request_id&quot;: &quot;request-b5b1772ef1fc5ee4e9659d4665f1e1cb9f1bac8e378596e9862fbe26825fbc32&quot;,
+    &quot;sha256&quot;: &quot;2aa0afa4320c89dd20d37b086479a3b712babbd3c49f526d8351201555ec8d2d&quot;,
+    &quot;size_bytes&quot;: 162649,
+    &quot;validation&quot;: {
+      &quot;cloud_screened&quot;: false,
+      &quot;crs&quot;: &quot;EPSG:32634&quot;,
+      &quot;dtype&quot;: &quot;float32&quot;,
+      &quot;mask_policy&quot;: &quot;nodata_only&quot;,
+      &quot;maximum&quot;: 0.9179810881614685,
+      &quot;mean&quot;: 0.3971240520477295,
+      &quot;minimum&quot;: -0.24483776092529297,
+      &quot;nodata&quot;: &quot;NaN&quot;,
+      &quot;offset&quot;: 0.0,
+      &quot;outside_nominal_range&quot;: 0,
+      &quot;scale&quot;: 1.0,
+      &quot;shape&quot;: [
+        226,
+        219
+      ],
+      &quot;total_pixels&quot;: 49494,
+      &quot;transform&quot;: [
+        10.0,
+        0.0,
+        424090.0,
+        0.0,
+        -10.0,
+        5545840.0
+      ],
+      &quot;valid_fraction&quot;: 0.9650866771729907,
+      &quot;valid_pixels&quot;: 47766
+    }
+  },
+  &quot;state&quot;: &quot;complete&quot;
+}</pre></details></article><article id="S2B_T34UDA_20250610T095316_L2A-river"><h2>S2B_T34UDA_20250610T095316_L2A-river</h2>
+        <p>complete: Output verified</p>
+        <p>Next check: Review the mask policy and scientific QC before using the result.</p>
+        <p>Request: <code>request-370ad01517a0eadb95841e8be2230079802d4e27064f38d0aef42fb0c0a4acae</code></p>
+        <p>Observed: 2026-11-10T21:33:17.022200Z; evidence age at export: 0.808451 seconds.</p>
+        <p>47766 / 49713 finite pixels. Cloud suitability: unassessed.</p>
+        <details><summary>Verification and next check</summary><pre>{
+  &quot;artifact_id&quot;: &quot;output-e0c50685508f092c083357cd7e0b1c80e338c9be64d757598cf38476ea911839&quot;,
+  &quot;attempt_id&quot;: &quot;attempt-6149e195ad6e40ac893ecfdae1506650&quot;,
+  &quot;context&quot;: {
+    &quot;active_attempt&quot;: null,
+    &quot;attempts_used&quot;: 1,
+    &quot;last_attempt&quot;: {
+      &quot;attempt_id&quot;: &quot;attempt-6149e195ad6e40ac893ecfdae1506650&quot;,
+      &quot;error_code&quot;: null,
+      &quot;error_message&quot;: null,
+      &quot;status&quot;: &quot;succeeded&quot;
+    },
+    &quot;max_attempts&quot;: 2,
+    &quot;missing_inputs&quot;: [],
+    &quot;validation_error&quot;: null,
+    &quot;verified_result&quot;: {
+      &quot;actual_sha256&quot;: &quot;dbc5b2e90c79aa1e089f3b13b4910c9ae13d4370636b2575d9f0a10a3cd138d6&quot;,
+      &quot;actual_size_bytes&quot;: 161207,
+      &quot;artifact_id&quot;: &quot;output-e0c50685508f092c083357cd7e0b1c80e338c9be64d757598cf38476ea911839&quot;,
+      &quot;attempt_id&quot;: &quot;attempt-6149e195ad6e40ac893ecfdae1506650&quot;,
+      &quot;catalogue_link_verified&quot;: true,
+      &quot;checked_at&quot;: &quot;2026-11-10T21:33:17.020370Z&quot;,
+      &quot;grid_verified&quot;: true,
+      &quot;path&quot;: &quot;C:\\Users\\mzawa\\Desktop\\mgr - II sem\\Authomated_Workflows_Windows\\Automated_Workflows\\Labs\\Lab05\\work\\outputs\\attempt-6149e195ad6e40ac893ecfdae1506650.ndvi.tif&quot;,
+      &quot;provenance_verified&quot;: true,
+      &quot;request_id&quot;: &quot;request-370ad01517a0eadb95841e8be2230079802d4e27064f38d0aef42fb0c0a4acae&quot;,
+      &quot;sha256&quot;: &quot;dbc5b2e90c79aa1e089f3b13b4910c9ae13d4370636b2575d9f0a10a3cd138d6&quot;,
+      &quot;size_bytes&quot;: 161207,
+      &quot;validation&quot;: {
+        &quot;cloud_screened&quot;: false,
+        &quot;crs&quot;: &quot;EPSG:32634&quot;,
+        &quot;dtype&quot;: &quot;float32&quot;,
+        &quot;mask_policy&quot;: &quot;nodata_only&quot;,
+        &quot;maximum&quot;: 0.9279019236564636,
+        &quot;mean&quot;: 0.4958273470401764,
+        &quot;minimum&quot;: -0.512646496295929,
+        &quot;nodata&quot;: &quot;NaN&quot;,
+        &quot;offset&quot;: 0.0,
+        &quot;outside_nominal_range&quot;: 0,
+        &quot;scale&quot;: 1.0,
+        &quot;shape&quot;: [
+          227,
+          219
+        ],
+        &quot;total_pixels&quot;: 49713,
+        &quot;transform&quot;: [
+          10.0,
+          0.0,
+          421940.0,
+          0.0,
+          -10.0,
+          5545880.0
+        ],
+        &quot;valid_fraction&quot;: 0.9608351940136383,
+        &quot;valid_pixels&quot;: 47766
+      }
+    }
+  },
+  &quot;inputs&quot;: [
+    {
+      &quot;artifact_id&quot;: &quot;input-f834f4ed9daad4da79d04ff85689d21cb08da616a0acf841756831f626817d5e&quot;,
+      &quot;lineage&quot;: {
+        &quot;aoi&quot;: {
+          &quot;bbox&quot;: [
+            19.91,
+            50.04,
+            19.94,
+            50.06
+          ],
+          &quot;crs&quot;: &quot;EPSG:4326&quot;
+        },
+        &quot;aoi_key&quot;: &quot;48e7066dc2510b10454cbc305c90ecb47f71c0966d733d6ab4ec2630c8745724&quot;,
+        &quot;asset_id&quot;: &quot;ad9f9a8dd240482b973295afc2c8bf1986473da9d9df148cfbc0ce5280802120&quot;,
+        &quot;asset_key&quot;: &quot;red&quot;,
+        &quot;collection&quot;: &quot;sentinel-2-c1-l2a&quot;,
+        &quot;item_id&quot;: &quot;S2B_T34UDA_20250610T095316_L2A&quot;,
+        &quot;metadata_sha256&quot;: &quot;e26e9e717397aba503fb56d2fb42aa3d01a832564e93ae30618fc872d7030dc7&quot;,
+        &quot;recipe_version&quot;: &quot;native10m-wgs84-mask-v1&quot;,
+        &quot;source_url&quot;: &quot;https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/34/U/DA/2025/6/S2B_T34UDA_20250610T095316_L2A/B04.tif&quot;,
+        &quot;subset_id&quot;: &quot;73438a988f0222716a5d4ed97f32f3254add079e786ce21103784d9c640b1988&quot;
+      },
+      &quot;raster&quot;: {
+        &quot;aoi_bbox&quot;: [
+          19.91,
+          50.04,
+          19.94,
+          50.06
+        ],
+        &quot;asset_key&quot;: &quot;red&quot;,
+        &quot;crs&quot;: &quot;EPSG:32634&quot;,
+        &quot;dtype&quot;: &quot;uint16&quot;,
+        &quot;nodata&quot;: 0,
+        &quot;offset&quot;: -0.1,
+        &quot;raw_pixel_bytes&quot;: 99426,
+        &quot;recipe&quot;: &quot;native10m-wgs84-mask-v1&quot;,
+        &quot;scale&quot;: 0.0001,
+        &quot;shape&quot;: [
+          227,
+          219
+        ],
+        &quot;source_shape&quot;: [
+          10980,
+          10980
+        ],
+        &quot;source_transform&quot;: [
+          10.0,
+          0.0,
+          399960.0,
+          0.0,
+          -10.0,
+          5600040.0
+        ],
+        &quot;source_url&quot;: &quot;https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/34/U/DA/2025/6/S2B_T34UDA_20250610T095316_L2A/B04.tif&quot;,
+        &quot;transform&quot;: [
+          10.0,
+          0.0,
+          421940.0,
+          0.0,
+          -10.0,
+          5545880.0
+        ],
+        &quot;window&quot;: [
+          2198,
+          5416,
+          219,
+          227
+        ]
+      },
+      &quot;role&quot;: &quot;red&quot;,
+      &quot;sha256&quot;: &quot;938cd4fe09e3522caa895bcd2e0b38ecfeaecc0b8be52507d58a9b71eb906087&quot;,
+      &quot;size_bytes&quot;: 75674
+    },
+    {
+      &quot;artifact_id&quot;: &quot;input-331ec4843623372a8837f3094ede386452a76fe8ef9e70968918695cbbcabfb2&quot;,
+      &quot;lineage&quot;: {
+        &quot;aoi&quot;: {
+          &quot;bbox&quot;: [
+            19.91,
+            50.04,
+            19.94,
+            50.06
+          ],
+          &quot;crs&quot;: &quot;EPSG:4326&quot;
+        },
+        &quot;aoi_key&quot;: &quot;48e7066dc2510b10454cbc305c90ecb47f71c0966d733d6ab4ec2630c8745724&quot;,
+        &quot;asset_id&quot;: &quot;cceb3178db73ea5890ddbcc517b05e7d4f2c4134b5d38674e203aa79fd34729b&quot;,
+        &quot;asset_key&quot;: &quot;nir&quot;,
+        &quot;collection&quot;: &quot;sentinel-2-c1-l2a&quot;,
+        &quot;item_id&quot;: &quot;S2B_T34UDA_20250610T095316_L2A&quot;,
+        &quot;metadata_sha256&quot;: &quot;3a7d443bd1624c5e26fc5ab9892b1281f91591e180d7daa29474788b2b180aad&quot;,
+        &quot;recipe_version&quot;: &quot;native10m-wgs84-mask-v1&quot;,
+        &quot;source_url&quot;: &quot;https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/34/U/DA/2025/6/S2B_T34UDA_20250610T095316_L2A/B08.tif&quot;,
+        &quot;subset_id&quot;: &quot;6f58b522fb7add633e399b9929628879d42cdea39af5b0a1e417d79053cf9836&quot;
+      },
+      &quot;raster&quot;: {
+        &quot;aoi_bbox&quot;: [
+          19.91,
+          50.04,
+          19.94,
+          50.06
+        ],
+        &quot;asset_key&quot;: &quot;nir&quot;,
+        &quot;crs&quot;: &quot;EPSG:32634&quot;,
+        &quot;dtype&quot;: &quot;uint16&quot;,
+        &quot;nodata&quot;: 0,
+        &quot;offset&quot;: -0.1,
+        &quot;raw_pixel_bytes&quot;: 99426,
+        &quot;recipe&quot;: &quot;native10m-wgs84-mask-v1&quot;,
+        &quot;scale&quot;: 0.0001,
+        &quot;shape&quot;: [
+          227,
+          219
+        ],
+        &quot;source_shape&quot;: [
+          10980,
+          10980
+        ],
+        &quot;source_transform&quot;: [
+          10.0,
+          0.0,
+          399960.0,
+          0.0,
+          -10.0,
+          5600040.0
+        ],
+        &quot;source_url&quot;: &quot;https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/34/U/DA/2025/6/S2B_T34UDA_20250610T095316_L2A/B08.tif&quot;,
+        &quot;transform&quot;: [
+          10.0,
+          0.0,
+          421940.0,
+          0.0,
+          -10.0,
+          5545880.0
+        ],
+        &quot;window&quot;: [
+          2198,
+          5416,
+          219,
+          227
+        ]
+      },
+      &quot;role&quot;: &quot;nir&quot;,
+      &quot;sha256&quot;: &quot;e41b7f8fec72c21b2f7683cace7339f68c2776dcc6a133684b6abc81b4ba7dca&quot;,
+      &quot;size_bytes&quot;: 76316
+    }
+  ],
+  &quot;location_checks&quot;: [
+    {
+      &quot;artifact_id&quot;: &quot;output-e0c50685508f092c083357cd7e0b1c80e338c9be64d757598cf38476ea911839&quot;,
+      &quot;checked_at&quot;: &quot;2026-11-10T21:33:17.013485Z&quot;,
+      &quot;error&quot;: null,
+      &quot;location_id&quot;: &quot;dd3d71d346a72d9c4bcd21754e11c3258fd6c5852bd05941e36619475aee8ef3&quot;,
+      &quot;path&quot;: &quot;C:\\Users\\mzawa\\Desktop\\mgr - II sem\\Authomated_Workflows_Windows\\Automated_Workflows\\Labs\\Lab05\\work\\outputs\\attempt-6149e195ad6e40ac893ecfdae1506650.ndvi.tif&quot;,
+      &quot;status&quot;: &quot;available&quot;
+    }
+  ],
+  &quot;member_id&quot;: &quot;S2B_T34UDA_20250610T095316_L2A-river&quot;,
+  &quot;next_check&quot;: &quot;Review the mask policy and scientific QC before using the result.&quot;,
+  &quot;reason&quot;: &quot;Output verified&quot;,
+  &quot;rejected_results&quot;: [],
+  &quot;request_id&quot;: &quot;request-370ad01517a0eadb95841e8be2230079802d4e27064f38d0aef42fb0c0a4acae&quot;,
+  &quot;result&quot;: {
+    &quot;actual_sha256&quot;: &quot;dbc5b2e90c79aa1e089f3b13b4910c9ae13d4370636b2575d9f0a10a3cd138d6&quot;,
+    &quot;actual_size_bytes&quot;: 161207,
+    &quot;artifact_id&quot;: &quot;output-e0c50685508f092c083357cd7e0b1c80e338c9be64d757598cf38476ea911839&quot;,
+    &quot;attempt_id&quot;: &quot;attempt-6149e195ad6e40ac893ecfdae1506650&quot;,
+    &quot;catalogue_link_verified&quot;: true,
+    &quot;checked_at&quot;: &quot;2026-11-10T21:33:17.020370Z&quot;,
+    &quot;grid_verified&quot;: true,
+    &quot;path&quot;: &quot;C:\\Users\\mzawa\\Desktop\\mgr - II sem\\Authomated_Workflows_Windows\\Automated_Workflows\\Labs\\Lab05\\work\\outputs\\attempt-6149e195ad6e40ac893ecfdae1506650.ndvi.tif&quot;,
+    &quot;provenance_verified&quot;: true,
+    &quot;request_id&quot;: &quot;request-370ad01517a0eadb95841e8be2230079802d4e27064f38d0aef42fb0c0a4acae&quot;,
+    &quot;sha256&quot;: &quot;dbc5b2e90c79aa1e089f3b13b4910c9ae13d4370636b2575d9f0a10a3cd138d6&quot;,
+    &quot;size_bytes&quot;: 161207,
+    &quot;validation&quot;: {
+      &quot;cloud_screened&quot;: false,
+      &quot;crs&quot;: &quot;EPSG:32634&quot;,
+      &quot;dtype&quot;: &quot;float32&quot;,
+      &quot;mask_policy&quot;: &quot;nodata_only&quot;,
+      &quot;maximum&quot;: 0.9279019236564636,
+      &quot;mean&quot;: 0.4958273470401764,
+      &quot;minimum&quot;: -0.512646496295929,
+      &quot;nodata&quot;: &quot;NaN&quot;,
+      &quot;offset&quot;: 0.0,
+      &quot;outside_nominal_range&quot;: 0,
+      &quot;scale&quot;: 1.0,
+      &quot;shape&quot;: [
+        227,
+        219
+      ],
+      &quot;total_pixels&quot;: 49713,
+      &quot;transform&quot;: [
+        10.0,
+        0.0,
+        421940.0,
+        0.0,
+        -10.0,
+        5545880.0
+      ],
+      &quot;valid_fraction&quot;: 0.9608351940136383,
+      &quot;valid_pixels&quot;: 47766
+    }
+  },
+  &quot;state&quot;: &quot;complete&quot;
+}</pre></details></article><article id="S2C_T34UDA_20250605T095638_L2A-east"><h2>S2C_T34UDA_20250605T095638_L2A-east</h2>
+        <p>complete: Output verified</p>
+        <p>Next check: Review the mask policy and scientific QC before using the result.</p>
+        <p>Request: <code>request-b7a3a23dd4ad56e1618dc9c96d87cbf43cc1139c323e19587f0ab53d774b363f</code></p>
+        <p>Observed: 2026-11-10T21:33:17.002231Z; evidence age at export: 0.82842 seconds.</p>
+        <p>47766 / 49494 finite pixels. Cloud suitability: unassessed.</p>
+        <details><summary>Verification and next check</summary><pre>{
+  &quot;artifact_id&quot;: &quot;output-441bf40802a7598a3131893239cab34746148a874097a2030746067f13fb7be2&quot;,
+  &quot;attempt_id&quot;: &quot;attempt-ea7eb202a8424a6c9638f2f5069977cd&quot;,
+  &quot;context&quot;: {
+    &quot;active_attempt&quot;: null,
+    &quot;attempts_used&quot;: 1,
+    &quot;last_attempt&quot;: {
+      &quot;attempt_id&quot;: &quot;attempt-ea7eb202a8424a6c9638f2f5069977cd&quot;,
+      &quot;error_code&quot;: null,
+      &quot;error_message&quot;: null,
+      &quot;status&quot;: &quot;succeeded&quot;
+    },
+    &quot;max_attempts&quot;: 2,
+    &quot;missing_inputs&quot;: [],
+    &quot;validation_error&quot;: null,
+    &quot;verified_result&quot;: {
+      &quot;actual_sha256&quot;: &quot;7572ea2e0c3b272ee4eea30cf99f5cc0b38f41958bbee917d5924c59e54bd8df&quot;,
+      &quot;actual_size_bytes&quot;: 161881,
+      &quot;artifact_id&quot;: &quot;output-441bf40802a7598a3131893239cab34746148a874097a2030746067f13fb7be2&quot;,
+      &quot;attempt_id&quot;: &quot;attempt-ea7eb202a8424a6c9638f2f5069977cd&quot;,
+      &quot;catalogue_link_verified&quot;: true,
+      &quot;checked_at&quot;: &quot;2026-11-10T21:33:17.000881Z&quot;,
+      &quot;grid_verified&quot;: true,
+      &quot;path&quot;: &quot;C:\\Users\\mzawa\\Desktop\\mgr - II sem\\Authomated_Workflows_Windows\\Automated_Workflows\\Labs\\Lab05\\work\\outputs\\attempt-ea7eb202a8424a6c9638f2f5069977cd.ndvi.tif&quot;,
+      &quot;provenance_verified&quot;: true,
+      &quot;request_id&quot;: &quot;request-b7a3a23dd4ad56e1618dc9c96d87cbf43cc1139c323e19587f0ab53d774b363f&quot;,
+      &quot;sha256&quot;: &quot;7572ea2e0c3b272ee4eea30cf99f5cc0b38f41958bbee917d5924c59e54bd8df&quot;,
+      &quot;size_bytes&quot;: 161881,
+      &quot;validation&quot;: {
+        &quot;cloud_screened&quot;: false,
+        &quot;crs&quot;: &quot;EPSG:32634&quot;,
+        &quot;dtype&quot;: &quot;float32&quot;,
+        &quot;mask_policy&quot;: &quot;nodata_only&quot;,
+        &quot;maximum&quot;: 0.9336169958114624,
+        &quot;mean&quot;: 0.41873010993003845,
+        &quot;minimum&quot;: -0.05242334306240082,
+        &quot;nodata&quot;: &quot;NaN&quot;,
+        &quot;offset&quot;: 0.0,
+        &quot;outside_nominal_range&quot;: 0,
+        &quot;scale&quot;: 1.0,
+        &quot;shape&quot;: [
+          226,
+          219
+        ],
+        &quot;total_pixels&quot;: 49494,
+        &quot;transform&quot;: [
+          10.0,
+          0.0,
+          424090.0,
+          0.0,
+          -10.0,
+          5545840.0
+        ],
+        &quot;valid_fraction&quot;: 0.9650866771729907,
+        &quot;valid_pixels&quot;: 47766
+      }
+    }
+  },
+  &quot;inputs&quot;: [
+    {
+      &quot;artifact_id&quot;: &quot;input-52a4c883a7e736674a2881151e8f85ab34d7fa11e2c31408bb5f0b16be07ae96&quot;,
+      &quot;lineage&quot;: {
+        &quot;aoi&quot;: {
+          &quot;bbox&quot;: [
+            19.94,
+            50.04,
+            19.97,
+            50.06
+          ],
+          &quot;crs&quot;: &quot;EPSG:4326&quot;
+        },
+        &quot;aoi_key&quot;: &quot;394493aeb76b6cb3445ef68c015fdceb44e09d9e4972d96c66e58e8403b87355&quot;,
+        &quot;asset_id&quot;: &quot;923ad24d7dc392e5a7bd1a701e91806a8803bf092e521e27b099345c50d5ecdc&quot;,
+        &quot;asset_key&quot;: &quot;red&quot;,
+        &quot;collection&quot;: &quot;sentinel-2-c1-l2a&quot;,
+        &quot;item_id&quot;: &quot;S2C_T34UDA_20250605T095638_L2A&quot;,
+        &quot;metadata_sha256&quot;: &quot;510ce94b78663e7261c41c40221af07448153dfd2ad8c7d3e3fd13f0e09c14d9&quot;,
+        &quot;recipe_version&quot;: &quot;native10m-wgs84-mask-v1&quot;,
+        &quot;source_url&quot;: &quot;https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/34/U/DA/2025/6/S2C_T34UDA_20250605T095638_L2A/B04.tif&quot;,
+        &quot;subset_id&quot;: &quot;647f294cce3a524af114221163febd60ec4a097ac2cc0cbb8b386e478e8d0e33&quot;
+      },
+      &quot;raster&quot;: {
+        &quot;aoi_bbox&quot;: [
+          19.94,
+          50.04,
+          19.97,
+          50.06
+        ],
+        &quot;asset_key&quot;: &quot;red&quot;,
+        &quot;crs&quot;: &quot;EPSG:32634&quot;,
+        &quot;dtype&quot;: &quot;uint16&quot;,
+        &quot;nodata&quot;: 0,
+        &quot;offset&quot;: -0.1,
+        &quot;raw_pixel_bytes&quot;: 98988,
+        &quot;recipe&quot;: &quot;native10m-wgs84-mask-v1&quot;,
+        &quot;scale&quot;: 0.0001,
+        &quot;shape&quot;: [
+          226,
+          219
+        ],
+        &quot;source_shape&quot;: [
+          10980,
+          10980
+        ],
+        &quot;source_transform&quot;: [
+          10.0,
+          0.0,
+          399960.0,
+          0.0,
+          -10.0,
+          5600040.0
+        ],
+        &quot;source_url&quot;: &quot;https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/34/U/DA/2025/6/S2C_T34UDA_20250605T095638_L2A/B04.tif&quot;,
+        &quot;transform&quot;: [
+          10.0,
+          0.0,
+          424090.0,
+          0.0,
+          -10.0,
+          5545840.0
+        ],
+        &quot;window&quot;: [
+          2413,
+          5420,
+          219,
+          226
+        ]
+      },
+      &quot;role&quot;: &quot;red&quot;,
+      &quot;sha256&quot;: &quot;4070bed64832e02f785b532e7f77e0a65249064677ba44a44ce384fffaafa0ef&quot;,
+      &quot;size_bytes&quot;: 76362
+    },
+    {
+      &quot;artifact_id&quot;: &quot;input-44a984ec7bf1c1129ec6f7aa5ed83e153538dc8fce544f066b5d110be1aca2cd&quot;,
+      &quot;lineage&quot;: {
+        &quot;aoi&quot;: {
+          &quot;bbox&quot;: [
+            19.94,
+            50.04,
+            19.97,
+            50.06
+          ],
+          &quot;crs&quot;: &quot;EPSG:4326&quot;
+        },
+        &quot;aoi_key&quot;: &quot;394493aeb76b6cb3445ef68c015fdceb44e09d9e4972d96c66e58e8403b87355&quot;,
+        &quot;asset_id&quot;: &quot;0b9b8fa003241cdc71532357640d510e83652149a30d9e2a893c1a69dd5c1f93&quot;,
+        &quot;asset_key&quot;: &quot;nir&quot;,
+        &quot;collection&quot;: &quot;sentinel-2-c1-l2a&quot;,
+        &quot;item_id&quot;: &quot;S2C_T34UDA_20250605T095638_L2A&quot;,
+        &quot;metadata_sha256&quot;: &quot;a3eb4248b73d1a5579d277c06753bda6c2bf88b9ba4b95dd08cd4e58b20dc1c7&quot;,
+        &quot;recipe_version&quot;: &quot;native10m-wgs84-mask-v1&quot;,
+        &quot;source_url&quot;: &quot;https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/34/U/DA/2025/6/S2C_T34UDA_20250605T095638_L2A/B08.tif&quot;,
+        &quot;subset_id&quot;: &quot;fcde160fa4208d5b6ca010c220bb2c630a9432b3d2b7e2f1dec7f85f1991d538&quot;
+      },
+      &quot;raster&quot;: {
+        &quot;aoi_bbox&quot;: [
+          19.94,
+          50.04,
+          19.97,
+          50.06
+        ],
+        &quot;asset_key&quot;: &quot;nir&quot;,
+        &quot;crs&quot;: &quot;EPSG:32634&quot;,
+        &quot;dtype&quot;: &quot;uint16&quot;,
+        &quot;nodata&quot;: 0,
+        &quot;offset&quot;: -0.1,
+        &quot;raw_pixel_bytes&quot;: 98988,
+        &quot;recipe&quot;: &quot;native10m-wgs84-mask-v1&quot;,
+        &quot;scale&quot;: 0.0001,
+        &quot;shape&quot;: [
+          226,
+          219
+        ],
+        &quot;source_shape&quot;: [
+          10980,
+          10980
+        ],
+        &quot;source_transform&quot;: [
+          10.0,
+          0.0,
+          399960.0,
+          0.0,
+          -10.0,
+          5600040.0
+        ],
+        &quot;source_url&quot;: &quot;https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/34/U/DA/2025/6/S2C_T34UDA_20250605T095638_L2A/B08.tif&quot;,
+        &quot;transform&quot;: [
+          10.0,
+          0.0,
+          424090.0,
+          0.0,
+          -10.0,
+          5545840.0
+        ],
+        &quot;window&quot;: [
+          2413,
+          5420,
+          219,
+          226
+        ]
+      },
+      &quot;role&quot;: &quot;nir&quot;,
+      &quot;sha256&quot;: &quot;794e5c9a6624de0e529f0f23a925fe4476fed04fcf3d3d2e178267f88c1ea99b&quot;,
+      &quot;size_bytes&quot;: 76380
+    }
+  ],
+  &quot;location_checks&quot;: [
+    {
+      &quot;artifact_id&quot;: &quot;output-441bf40802a7598a3131893239cab34746148a874097a2030746067f13fb7be2&quot;,
+      &quot;checked_at&quot;: &quot;2026-11-10T21:33:16.997094Z&quot;,
+      &quot;error&quot;: null,
+      &quot;location_id&quot;: &quot;13851b947f97331d6e30c174eed563bf83fbbe57c435cf983cac134020f19bdc&quot;,
+      &quot;path&quot;: &quot;C:\\Users\\mzawa\\Desktop\\mgr - II sem\\Authomated_Workflows_Windows\\Automated_Workflows\\Labs\\Lab05\\work\\outputs\\attempt-ea7eb202a8424a6c9638f2f5069977cd.ndvi.tif&quot;,
+      &quot;status&quot;: &quot;available&quot;
+    }
+  ],
+  &quot;member_id&quot;: &quot;S2C_T34UDA_20250605T095638_L2A-east&quot;,
+  &quot;next_check&quot;: &quot;Review the mask policy and scientific QC before using the result.&quot;,
+  &quot;reason&quot;: &quot;Output verified&quot;,
+  &quot;rejected_results&quot;: [],
+  &quot;request_id&quot;: &quot;request-b7a3a23dd4ad56e1618dc9c96d87cbf43cc1139c323e19587f0ab53d774b363f&quot;,
+  &quot;result&quot;: {
+    &quot;actual_sha256&quot;: &quot;7572ea2e0c3b272ee4eea30cf99f5cc0b38f41958bbee917d5924c59e54bd8df&quot;,
+    &quot;actual_size_bytes&quot;: 161881,
+    &quot;artifact_id&quot;: &quot;output-441bf40802a7598a3131893239cab34746148a874097a2030746067f13fb7be2&quot;,
+    &quot;attempt_id&quot;: &quot;attempt-ea7eb202a8424a6c9638f2f5069977cd&quot;,
+    &quot;catalogue_link_verified&quot;: true,
+    &quot;checked_at&quot;: &quot;2026-11-10T21:33:17.000881Z&quot;,
+    &quot;grid_verified&quot;: true,
+    &quot;path&quot;: &quot;C:\\Users\\mzawa\\Desktop\\mgr - II sem\\Authomated_Workflows_Windows\\Automated_Workflows\\Labs\\Lab05\\work\\outputs\\attempt-ea7eb202a8424a6c9638f2f5069977cd.ndvi.tif&quot;,
+    &quot;provenance_verified&quot;: true,
+    &quot;request_id&quot;: &quot;request-b7a3a23dd4ad56e1618dc9c96d87cbf43cc1139c323e19587f0ab53d774b363f&quot;,
+    &quot;sha256&quot;: &quot;7572ea2e0c3b272ee4eea30cf99f5cc0b38f41958bbee917d5924c59e54bd8df&quot;,
+    &quot;size_bytes&quot;: 161881,
+    &quot;validation&quot;: {
+      &quot;cloud_screened&quot;: false,
+      &quot;crs&quot;: &quot;EPSG:32634&quot;,
+      &quot;dtype&quot;: &quot;float32&quot;,
+      &quot;mask_policy&quot;: &quot;nodata_only&quot;,
+      &quot;maximum&quot;: 0.9336169958114624,
+      &quot;mean&quot;: 0.41873010993003845,
+      &quot;minimum&quot;: -0.05242334306240082,
+      &quot;nodata&quot;: &quot;NaN&quot;,
+      &quot;offset&quot;: 0.0,
+      &quot;outside_nominal_range&quot;: 0,
+      &quot;scale&quot;: 1.0,
+      &quot;shape&quot;: [
+        226,
+        219
+      ],
+      &quot;total_pixels&quot;: 49494,
+      &quot;transform&quot;: [
+        10.0,
+        0.0,
+        424090.0,
+        0.0,
+        -10.0,
+        5545840.0
+      ],
+      &quot;valid_fraction&quot;: 0.9650866771729907,
+      &quot;valid_pixels&quot;: 47766
+    }
+  },
+  &quot;state&quot;: &quot;complete&quot;
+}</pre></details></article><article id="S2C_T34UDA_20250605T095638_L2A-river"><h2>S2C_T34UDA_20250605T095638_L2A-river</h2>
+        <p>complete: Output verified</p>
+        <p>Next check: Review the mask policy and scientific QC before using the result.</p>
+        <p>Request: <code>request-81041d52787fff61cd5e976005eb7e89fbad02ca29656829d6a01c72baa88e7c</code></p>
+        <p>Observed: 2026-11-10T21:33:16.986803Z; evidence age at export: 0.843848 seconds.</p>
+        <p>47766 / 49713 finite pixels. Cloud suitability: unassessed.</p>
+        <details><summary>Verification and next check</summary><pre>{
+  &quot;artifact_id&quot;: &quot;output-101acb4d7405dadd90b15d826a8451b4fcd4502f2269c14d82a82b0c5d421324&quot;,
+  &quot;attempt_id&quot;: &quot;attempt-873c2dabfccb4958be5dbc351994a319&quot;,
+  &quot;context&quot;: {
+    &quot;active_attempt&quot;: null,
+    &quot;attempts_used&quot;: 1,
+    &quot;last_attempt&quot;: {
+      &quot;attempt_id&quot;: &quot;attempt-873c2dabfccb4958be5dbc351994a319&quot;,
+      &quot;error_code&quot;: null,
+      &quot;error_message&quot;: null,
+      &quot;status&quot;: &quot;succeeded&quot;
+    },
+    &quot;max_attempts&quot;: 2,
+    &quot;missing_inputs&quot;: [],
+    &quot;validation_error&quot;: null,
+    &quot;verified_result&quot;: {
+      &quot;actual_sha256&quot;: &quot;b4bdcf09739d4f4141003af56685dfb685895c8986eb8386b3b247bc2a4444de&quot;,
+      &quot;actual_size_bytes&quot;: 160641,
+      &quot;artifact_id&quot;: &quot;output-101acb4d7405dadd90b15d826a8451b4fcd4502f2269c14d82a82b0c5d421324&quot;,
+      &quot;attempt_id&quot;: &quot;attempt-873c2dabfccb4958be5dbc351994a319&quot;,
+      &quot;catalogue_link_verified&quot;: true,
+      &quot;checked_at&quot;: &quot;2026-11-10T21:33:16.985462Z&quot;,
+      &quot;grid_verified&quot;: true,
+      &quot;path&quot;: &quot;C:\\Users\\mzawa\\Desktop\\mgr - II sem\\Authomated_Workflows_Windows\\Automated_Workflows\\Labs\\Lab05\\work\\outputs\\attempt-873c2dabfccb4958be5dbc351994a319.ndvi.tif&quot;,
+      &quot;provenance_verified&quot;: true,
+      &quot;request_id&quot;: &quot;request-81041d52787fff61cd5e976005eb7e89fbad02ca29656829d6a01c72baa88e7c&quot;,
+      &quot;sha256&quot;: &quot;b4bdcf09739d4f4141003af56685dfb685895c8986eb8386b3b247bc2a4444de&quot;,
+      &quot;size_bytes&quot;: 160641,
+      &quot;validation&quot;: {
+        &quot;cloud_screened&quot;: false,
+        &quot;crs&quot;: &quot;EPSG:32634&quot;,
+        &quot;dtype&quot;: &quot;float32&quot;,
+        &quot;mask_policy&quot;: &quot;nodata_only&quot;,
+        &quot;maximum&quot;: 0.9234670400619507,
+        &quot;mean&quot;: 0.5055400133132935,
+        &quot;minimum&quot;: -0.12525667250156403,
+        &quot;nodata&quot;: &quot;NaN&quot;,
+        &quot;offset&quot;: 0.0,
+        &quot;outside_nominal_range&quot;: 0,
+        &quot;scale&quot;: 1.0,
+        &quot;shape&quot;: [
+          227,
+          219
+        ],
+        &quot;total_pixels&quot;: 49713,
+        &quot;transform&quot;: [
+          10.0,
+          0.0,
+          421940.0,
+          0.0,
+          -10.0,
+          5545880.0
+        ],
+        &quot;valid_fraction&quot;: 0.9608351940136383,
+        &quot;valid_pixels&quot;: 47766
+      }
+    }
+  },
+  &quot;inputs&quot;: [
+    {
+      &quot;artifact_id&quot;: &quot;input-cf3eeb82217ff03113019f478a29968c1376c6d5a786991f32356ab393dfa6ec&quot;,
+      &quot;lineage&quot;: {
+        &quot;aoi&quot;: {
+          &quot;bbox&quot;: [
+            19.91,
+            50.04,
+            19.94,
+            50.06
+          ],
+          &quot;crs&quot;: &quot;EPSG:4326&quot;
+        },
+        &quot;aoi_key&quot;: &quot;48e7066dc2510b10454cbc305c90ecb47f71c0966d733d6ab4ec2630c8745724&quot;,
+        &quot;asset_id&quot;: &quot;923ad24d7dc392e5a7bd1a701e91806a8803bf092e521e27b099345c50d5ecdc&quot;,
+        &quot;asset_key&quot;: &quot;red&quot;,
+        &quot;collection&quot;: &quot;sentinel-2-c1-l2a&quot;,
+        &quot;item_id&quot;: &quot;S2C_T34UDA_20250605T095638_L2A&quot;,
+        &quot;metadata_sha256&quot;: &quot;510ce94b78663e7261c41c40221af07448153dfd2ad8c7d3e3fd13f0e09c14d9&quot;,
+        &quot;recipe_version&quot;: &quot;native10m-wgs84-mask-v1&quot;,
+        &quot;source_url&quot;: &quot;https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/34/U/DA/2025/6/S2C_T34UDA_20250605T095638_L2A/B04.tif&quot;,
+        &quot;subset_id&quot;: &quot;5d049c34307bc1d6b85d76fb3a0884408de225cf1bd4196113948882b49a8a67&quot;
+      },
+      &quot;raster&quot;: {
+        &quot;aoi_bbox&quot;: [
+          19.91,
+          50.04,
+          19.94,
+          50.06
+        ],
+        &quot;asset_key&quot;: &quot;red&quot;,
+        &quot;crs&quot;: &quot;EPSG:32634&quot;,
+        &quot;dtype&quot;: &quot;uint16&quot;,
+        &quot;nodata&quot;: 0,
+        &quot;offset&quot;: -0.1,
+        &quot;raw_pixel_bytes&quot;: 99426,
+        &quot;recipe&quot;: &quot;native10m-wgs84-mask-v1&quot;,
+        &quot;scale&quot;: 0.0001,
+        &quot;shape&quot;: [
+          227,
+          219
+        ],
+        &quot;source_shape&quot;: [
+          10980,
+          10980
+        ],
+        &quot;source_transform&quot;: [
+          10.0,
+          0.0,
+          399960.0,
+          0.0,
+          -10.0,
+          5600040.0
+        ],
+        &quot;source_url&quot;: &quot;https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/34/U/DA/2025/6/S2C_T34UDA_20250605T095638_L2A/B04.tif&quot;,
+        &quot;transform&quot;: [
+          10.0,
+          0.0,
+          421940.0,
+          0.0,
+          -10.0,
+          5545880.0
+        ],
+        &quot;window&quot;: [
+          2198,
+          5416,
+          219,
+          227
+        ]
+      },
+      &quot;role&quot;: &quot;red&quot;,
+      &quot;sha256&quot;: &quot;8a24d3f8ce5066c13220884c45da5dceb2b8edb24bc84f096a52e4f09260563b&quot;,
+      &quot;size_bytes&quot;: 75970
+    },
+    {
+      &quot;artifact_id&quot;: &quot;input-d7579a2f50d587b0b0865b0155819545f73e2eb0b37e57fc85aabacb35424669&quot;,
+      &quot;lineage&quot;: {
+        &quot;aoi&quot;: {
+          &quot;bbox&quot;: [
+            19.91,
+            50.04,
+            19.94,
+            50.06
+          ],
+          &quot;crs&quot;: &quot;EPSG:4326&quot;
+        },
+        &quot;aoi_key&quot;: &quot;48e7066dc2510b10454cbc305c90ecb47f71c0966d733d6ab4ec2630c8745724&quot;,
+        &quot;asset_id&quot;: &quot;0b9b8fa003241cdc71532357640d510e83652149a30d9e2a893c1a69dd5c1f93&quot;,
+        &quot;asset_key&quot;: &quot;nir&quot;,
+        &quot;collection&quot;: &quot;sentinel-2-c1-l2a&quot;,
+        &quot;item_id&quot;: &quot;S2C_T34UDA_20250605T095638_L2A&quot;,
+        &quot;metadata_sha256&quot;: &quot;a3eb4248b73d1a5579d277c06753bda6c2bf88b9ba4b95dd08cd4e58b20dc1c7&quot;,
+        &quot;recipe_version&quot;: &quot;native10m-wgs84-mask-v1&quot;,
+        &quot;source_url&quot;: &quot;https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/34/U/DA/2025/6/S2C_T34UDA_20250605T095638_L2A/B08.tif&quot;,
+        &quot;subset_id&quot;: &quot;d1f4de81f5af058ed4e859e8aeef33d27073be2eae1c5a5c6a6567cfc48a8e70&quot;
+      },
+      &quot;raster&quot;: {
+        &quot;aoi_bbox&quot;: [
+          19.91,
+          50.04,
+          19.94,
+          50.06
+        ],
+        &quot;asset_key&quot;: &quot;nir&quot;,
+        &quot;crs&quot;: &quot;EPSG:32634&quot;,
+        &quot;dtype&quot;: &quot;uint16&quot;,
+        &quot;nodata&quot;: 0,
+        &quot;offset&quot;: -0.1,
+        &quot;raw_pixel_bytes&quot;: 99426,
+        &quot;recipe&quot;: &quot;native10m-wgs84-mask-v1&quot;,
+        &quot;scale&quot;: 0.0001,
+        &quot;shape&quot;: [
+          227,
+          219
+        ],
+        &quot;source_shape&quot;: [
+          10980,
+          10980
+        ],
+        &quot;source_transform&quot;: [
+          10.0,
+          0.0,
+          399960.0,
+          0.0,
+          -10.0,
+          5600040.0
+        ],
+        &quot;source_url&quot;: &quot;https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/34/U/DA/2025/6/S2C_T34UDA_20250605T095638_L2A/B08.tif&quot;,
+        &quot;transform&quot;: [
+          10.0,
+          0.0,
+          421940.0,
+          0.0,
+          -10.0,
+          5545880.0
+        ],
+        &quot;window&quot;: [
+          2198,
+          5416,
+          219,
+          227
+        ]
+      },
+      &quot;role&quot;: &quot;nir&quot;,
+      &quot;sha256&quot;: &quot;84376de856f11a1e463d4c55f167e06aa4a245122833e217bc1d37c46afc1b96&quot;,
+      &quot;size_bytes&quot;: 76198
+    }
+  ],
+  &quot;location_checks&quot;: [
+    {
+      &quot;artifact_id&quot;: &quot;output-101acb4d7405dadd90b15d826a8451b4fcd4502f2269c14d82a82b0c5d421324&quot;,
+      &quot;checked_at&quot;: &quot;2026-11-10T21:33:16.981752Z&quot;,
+      &quot;error&quot;: null,
+      &quot;location_id&quot;: &quot;13c06b9d302590752bfc039e5e219dba01506ebdcdb0659b128473ab1331b2c0&quot;,
+      &quot;path&quot;: &quot;C:\\Users\\mzawa\\Desktop\\mgr - II sem\\Authomated_Workflows_Windows\\Automated_Workflows\\Labs\\Lab05\\work\\outputs\\attempt-873c2dabfccb4958be5dbc351994a319.ndvi.tif&quot;,
+      &quot;status&quot;: &quot;available&quot;
+    }
+  ],
+  &quot;member_id&quot;: &quot;S2C_T34UDA_20250605T095638_L2A-river&quot;,
+  &quot;next_check&quot;: &quot;Review the mask policy and scientific QC before using the result.&quot;,
+  &quot;reason&quot;: &quot;Output verified&quot;,
+  &quot;rejected_results&quot;: [],
+  &quot;request_id&quot;: &quot;request-81041d52787fff61cd5e976005eb7e89fbad02ca29656829d6a01c72baa88e7c&quot;,
+  &quot;result&quot;: {
+    &quot;actual_sha256&quot;: &quot;b4bdcf09739d4f4141003af56685dfb685895c8986eb8386b3b247bc2a4444de&quot;,
+    &quot;actual_size_bytes&quot;: 160641,
+    &quot;artifact_id&quot;: &quot;output-101acb4d7405dadd90b15d826a8451b4fcd4502f2269c14d82a82b0c5d421324&quot;,
+    &quot;attempt_id&quot;: &quot;attempt-873c2dabfccb4958be5dbc351994a319&quot;,
+    &quot;catalogue_link_verified&quot;: true,
+    &quot;checked_at&quot;: &quot;2026-11-10T21:33:16.985462Z&quot;,
+    &quot;grid_verified&quot;: true,
+    &quot;path&quot;: &quot;C:\\Users\\mzawa\\Desktop\\mgr - II sem\\Authomated_Workflows_Windows\\Automated_Workflows\\Labs\\Lab05\\work\\outputs\\attempt-873c2dabfccb4958be5dbc351994a319.ndvi.tif&quot;,
+    &quot;provenance_verified&quot;: true,
+    &quot;request_id&quot;: &quot;request-81041d52787fff61cd5e976005eb7e89fbad02ca29656829d6a01c72baa88e7c&quot;,
+    &quot;sha256&quot;: &quot;b4bdcf09739d4f4141003af56685dfb685895c8986eb8386b3b247bc2a4444de&quot;,
+    &quot;size_bytes&quot;: 160641,
+    &quot;validation&quot;: {
+      &quot;cloud_screened&quot;: false,
+      &quot;crs&quot;: &quot;EPSG:32634&quot;,
+      &quot;dtype&quot;: &quot;float32&quot;,
+      &quot;mask_policy&quot;: &quot;nodata_only&quot;,
+      &quot;maximum&quot;: 0.9234670400619507,
+      &quot;mean&quot;: 0.5055400133132935,
+      &quot;minimum&quot;: -0.12525667250156403,
+      &quot;nodata&quot;: &quot;NaN&quot;,
+      &quot;offset&quot;: 0.0,
+      &quot;outside_nominal_range&quot;: 0,
+      &quot;scale&quot;: 1.0,
+      &quot;shape&quot;: [
+        227,
+        219
+      ],
+      &quot;total_pixels&quot;: 49713,
+      &quot;transform&quot;: [
+        10.0,
+        0.0,
+        421940.0,
+        0.0,
+        -10.0,
+        5545880.0
+      ],
+      &quot;valid_fraction&quot;: 0.9608351940136383,
+      &quot;valid_pixels&quot;: 47766
+    }
+  },
+  &quot;state&quot;: &quot;complete&quot;
+}</pre></details></article><h2>Application attempt history</h2><pre>[
+  {
+    &quot;attempt_id&quot;: &quot;attempt-39acb11edae64c44983e1c11e94e2080&quot;,
+    &quot;request_id&quot;: &quot;request-8f013a06e81e7b70d60663f0b667b3ae88834e95473fbd7ce861ee1668ba8920&quot;,
+    &quot;status&quot;: &quot;succeeded&quot;,
+    &quot;stage&quot;: &quot;complete&quot;,
+    &quot;started_at&quot;: &quot;2026-11-10T21:24:05.607567Z&quot;,
+    &quot;finished_at&quot;: &quot;2026-11-10T21:24:05.781553Z&quot;,
+    &quot;temp_path&quot;: &quot;C:\\Users\\mzawa\\Desktop\\mgr - II sem\\Authomated_Workflows_Windows\\Automated_Workflows\\Labs\\Lab05\\work\\outputs\\.attempt-39acb11edae64c44983e1c11e94e2080.partial.tif&quot;,
+    &quot;final_path&quot;: &quot;C:\\Users\\mzawa\\Desktop\\mgr - II sem\\Authomated_Workflows_Windows\\Automated_Workflows\\Labs\\Lab05\\work\\outputs\\attempt-39acb11edae64c44983e1c11e94e2080.ndvi.tif&quot;,
+    &quot;log_path&quot;: &quot;C:\\Users\\mzawa\\Desktop\\mgr - II sem\\Authomated_Workflows_Windows\\Automated_Workflows\\Labs\\Lab05\\work\\logs\\attempt-39acb11edae64c44983e1c11e94e2080.jsonl&quot;,
+    &quot;error_code&quot;: null,
+    &quot;error_message&quot;: null,
+    &quot;reused_from_attempt_id&quot;: null
+  },
+  {
+    &quot;attempt_id&quot;: &quot;attempt-7fd9ae9317614168903c21c3afeb8559&quot;,
+    &quot;request_id&quot;: &quot;request-1f0182b0a73902beebff016cf6021e940743df028fd8608a90adc46773ab5135&quot;,
+    &quot;status&quot;: &quot;succeeded&quot;,
+    &quot;stage&quot;: &quot;complete&quot;,
+    &quot;started_at&quot;: &quot;2026-11-10T21:24:06.451384Z&quot;,
+    &quot;finished_at&quot;: &quot;2026-11-10T21:24:06.597365Z&quot;,
+    &quot;temp_path&quot;: &quot;C:\\Users\\mzawa\\Desktop\\mgr - II sem\\Authomated_Workflows_Windows\\Automated_Workflows\\Labs\\Lab05\\work\\outputs\\.attempt-7fd9ae9317614168903c21c3afeb8559.partial.tif&quot;,
+    &quot;final_path&quot;: &quot;C:\\Users\\mzawa\\Desktop\\mgr - II sem\\Authomated_Workflows_Windows\\Automated_Workflows\\Labs\\Lab05\\work\\outputs\\attempt-7fd9ae9317614168903c21c3afeb8559.ndvi.tif&quot;,
+    &quot;log_path&quot;: &quot;C:\\Users\\mzawa\\Desktop\\mgr - II sem\\Authomated_Workflows_Windows\\Automated_Workflows\\Labs\\Lab05\\work\\logs\\attempt-7fd9ae9317614168903c21c3afeb8559.jsonl&quot;,
+    &quot;error_code&quot;: null,
+    &quot;error_message&quot;: null,
+    &quot;reused_from_attempt_id&quot;: null
+  },
+  {
+    &quot;attempt_id&quot;: &quot;attempt-873c2dabfccb4958be5dbc351994a319&quot;,
+    &quot;request_id&quot;: &quot;request-81041d52787fff61cd5e976005eb7e89fbad02ca29656829d6a01c72baa88e7c&quot;,
+    &quot;status&quot;: &quot;succeeded&quot;,
+    &quot;stage&quot;: &quot;complete&quot;,
+    &quot;started_at&quot;: &quot;2026-11-10T21:24:07.107970Z&quot;,
+    &quot;finished_at&quot;: &quot;2026-11-10T21:24:07.257802Z&quot;,
+    &quot;temp_path&quot;: &quot;C:\\Users\\mzawa\\Desktop\\mgr - II sem\\Authomated_Workflows_Windows\\Automated_Workflows\\Labs\\Lab05\\work\\outputs\\.attempt-873c2dabfccb4958be5dbc351994a319.partial.tif&quot;,
+    &quot;final_path&quot;: &quot;C:\\Users\\mzawa\\Desktop\\mgr - II sem\\Authomated_Workflows_Windows\\Automated_Workflows\\Labs\\Lab05\\work\\outputs\\attempt-873c2dabfccb4958be5dbc351994a319.ndvi.tif&quot;,
+    &quot;log_path&quot;: &quot;C:\\Users\\mzawa\\Desktop\\mgr - II sem\\Authomated_Workflows_Windows\\Automated_Workflows\\Labs\\Lab05\\work\\logs\\attempt-873c2dabfccb4958be5dbc351994a319.jsonl&quot;,
+    &quot;error_code&quot;: null,
+    &quot;error_message&quot;: null,
+    &quot;reused_from_attempt_id&quot;: null
+  },
+  {
+    &quot;attempt_id&quot;: &quot;attempt-ea7eb202a8424a6c9638f2f5069977cd&quot;,
+    &quot;request_id&quot;: &quot;request-b7a3a23dd4ad56e1618dc9c96d87cbf43cc1139c323e19587f0ab53d774b363f&quot;,
+    &quot;status&quot;: &quot;succeeded&quot;,
+    &quot;stage&quot;: &quot;complete&quot;,
+    &quot;started_at&quot;: &quot;2026-11-10T21:24:07.774849Z&quot;,
+    &quot;finished_at&quot;: &quot;2026-11-10T21:24:07.918067Z&quot;,
+    &quot;temp_path&quot;: &quot;C:\\Users\\mzawa\\Desktop\\mgr - II sem\\Authomated_Workflows_Windows\\Automated_Workflows\\Labs\\Lab05\\work\\outputs\\.attempt-ea7eb202a8424a6c9638f2f5069977cd.partial.tif&quot;,
+    &quot;final_path&quot;: &quot;C:\\Users\\mzawa\\Desktop\\mgr - II sem\\Authomated_Workflows_Windows\\Automated_Workflows\\Labs\\Lab05\\work\\outputs\\attempt-ea7eb202a8424a6c9638f2f5069977cd.ndvi.tif&quot;,
+    &quot;log_path&quot;: &quot;C:\\Users\\mzawa\\Desktop\\mgr - II sem\\Authomated_Workflows_Windows\\Automated_Workflows\\Labs\\Lab05\\work\\logs\\attempt-ea7eb202a8424a6c9638f2f5069977cd.jsonl&quot;,
+    &quot;error_code&quot;: null,
+    &quot;error_message&quot;: null,
+    &quot;reused_from_attempt_id&quot;: null
+  },
+  {
+    &quot;attempt_id&quot;: &quot;attempt-6149e195ad6e40ac893ecfdae1506650&quot;,
+    &quot;request_id&quot;: &quot;request-370ad01517a0eadb95841e8be2230079802d4e27064f38d0aef42fb0c0a4acae&quot;,
+    &quot;status&quot;: &quot;succeeded&quot;,
+    &quot;stage&quot;: &quot;complete&quot;,
+    &quot;started_at&quot;: &quot;2026-11-10T21:24:08.602353Z&quot;,
+    &quot;finished_at&quot;: &quot;2026-11-10T21:24:08.801768Z&quot;,
+    &quot;temp_path&quot;: &quot;C:\\Users\\mzawa\\Desktop\\mgr - II sem\\Authomated_Workflows_Windows\\Automated_Workflows\\Labs\\Lab05\\work\\outputs\\.attempt-6149e195ad6e40ac893ecfdae1506650.partial.tif&quot;,
+    &quot;final_path&quot;: &quot;C:\\Users\\mzawa\\Desktop\\mgr - II sem\\Authomated_Workflows_Windows\\Automated_Workflows\\Labs\\Lab05\\work\\outputs\\attempt-6149e195ad6e40ac893ecfdae1506650.ndvi.tif&quot;,
+    &quot;log_path&quot;: &quot;C:\\Users\\mzawa\\Desktop\\mgr - II sem\\Authomated_Workflows_Windows\\Automated_Workflows\\Labs\\Lab05\\work\\logs\\attempt-6149e195ad6e40ac893ecfdae1506650.jsonl&quot;,
+    &quot;error_code&quot;: null,
+    &quot;error_message&quot;: null,
+    &quot;reused_from_attempt_id&quot;: null
+  },
+  {
+    &quot;attempt_id&quot;: &quot;attempt-e7e79b1b0e0a42fcb146624c1cca3cfe&quot;,
+    &quot;request_id&quot;: &quot;request-b5b1772ef1fc5ee4e9659d4665f1e1cb9f1bac8e378596e9862fbe26825fbc32&quot;,
+    &quot;status&quot;: &quot;succeeded&quot;,
+    &quot;stage&quot;: &quot;complete&quot;,
+    &quot;started_at&quot;: &quot;2026-11-10T21:24:09.304654Z&quot;,
+    &quot;finished_at&quot;: &quot;2026-11-10T21:24:09.448610Z&quot;,
+    &quot;temp_path&quot;: &quot;C:\\Users\\mzawa\\Desktop\\mgr - II sem\\Authomated_Workflows_Windows\\Automated_Workflows\\Labs\\Lab05\\work\\outputs\\.attempt-e7e79b1b0e0a42fcb146624c1cca3cfe.partial.tif&quot;,
+    &quot;final_path&quot;: &quot;C:\\Users\\mzawa\\Desktop\\mgr - II sem\\Authomated_Workflows_Windows\\Automated_Workflows\\Labs\\Lab05\\work\\outputs\\attempt-e7e79b1b0e0a42fcb146624c1cca3cfe.ndvi.tif&quot;,
+    &quot;log_path&quot;: &quot;C:\\Users\\mzawa\\Desktop\\mgr - II sem\\Authomated_Workflows_Windows\\Automated_Workflows\\Labs\\Lab05\\work\\logs\\attempt-e7e79b1b0e0a42fcb146624c1cca3cfe.jsonl&quot;,
+    &quot;error_code&quot;: null,
+    &quot;error_message&quot;: null,
+    &quot;reused_from_attempt_id&quot;: null
+  }
+]</pre><details><summary>Report identity and snapshot</summary><pre>{
+  &quot;batch_id&quot;: &quot;batch-4432966395a9990c13c8a1e7fd98ff9c2668b31412f95c02a801d0fc8c61fb8b&quot;,
+  &quot;query_version&quot;: &quot;lab05_queries_v1&quot;,
+  &quot;generated_at&quot;: &quot;2026-11-10T21:33:17.831723Z&quot;,
+  &quot;membership_sha256&quot;: &quot;4432966395a9990c13c8a1e7fd98ff9c2668b31412f95c02a801d0fc8c61fb8b&quot;,
+  &quot;summary&quot;: {
+    &quot;expected&quot;: 6,
+    &quot;counts&quot;: {
+      &quot;ready&quot;: 0,
+      &quot;complete&quot;: 6,
+      &quot;blocked&quot;: 0,
+      &quot;unresolved&quot;: 0,
+      &quot;failed&quot;: 0,
+      &quot;unobserved&quot;: 0
+    },
+    &quot;members&quot;: {
+      &quot;ready&quot;: [],
+      &quot;complete&quot;: [
+        &quot;S2A_T34UDA_20250604T094637_L2A-east&quot;,
+        &quot;S2A_T34UDA_20250604T094637_L2A-river&quot;,
+        &quot;S2B_T34UDA_20250610T095316_L2A-east&quot;,
+        &quot;S2B_T34UDA_20250610T095316_L2A-river&quot;,
+        &quot;S2C_T34UDA_20250605T095638_L2A-east&quot;,
+        &quot;S2C_T34UDA_20250605T095638_L2A-river&quot;
+      ],
+      &quot;blocked&quot;: [],
+      &quot;unresolved&quot;: [],
+      &quot;failed&quot;: [],
+      &quot;unobserved&quot;: []
+    }
+  },
+  &quot;attempt_count&quot;: 6,
+  &quot;production_count&quot;: 6,
+  &quot;scientific_qc&quot;: {
+    &quot;mask_policy&quot;: &quot;nodata_only&quot;,
+    &quot;cloud_suitability&quot;: &quot;unassessed&quot;
+  },
+  &quot;interpretation&quot;: &quot;States describe recorded observations at their timestamps. Use refresh for new file checks.&quot;,
+  &quot;snapshot&quot;: {
+    &quot;file&quot;: &quot;catalogue.sqlite&quot;,
+    &quot;sha256&quot;: &quot;5bac6534a594297d1cd5d5e6860d96987ccb2ee77d1806f10f8ed918472cc1a5&quot;,
+    &quot;captured_at&quot;: &quot;2026-11-10T21:33:17.833735Z&quot;,
+    &quot;cutoff_note&quot;: &quot;Consistent database backup; observation times remain explicit&quot;
+  },
+  &quot;preview&quot;: &quot;preview.png&quot;
+}</pre></details></html>
