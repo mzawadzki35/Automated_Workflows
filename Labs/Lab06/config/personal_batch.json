@@ -4,32 +4,24 @@
   "max_attempts": 2,
   "jobs": [
     {
-      "member_id": "my_aoi_my_product",
-      "item_id": "REPLACE_WITH_AN_ITEM_FROM_SEARCH",
+      "member_id": "las_wolski_ndmi_20250605",
+      "item_id": "S2C_T34UDA_20250605T095638_L2A",
       "aoi_bbox": [
-        19.91,
+        19.84,
         50.04,
-        19.94,
+        19.87,
         50.06
       ],
-      "product": "my_product",
+      "product": "ndmi",
       "plugin": "../extensions/my_product.py",
       "parameters": {
-        "epsilon": 1e-06
+        "epsilon": 0.000001
       },
       "preparation": {
         "resolution_m": 20,
         "mask_policy": "scl",
         "excluded_scl": [
-          0,
-          1,
-          2,
-          3,
-          7,
-          8,
-          9,
-          10,
-          11
+          0, 1, 2, 3, 7, 8, 9, 10, 11
         ]
       }
     }

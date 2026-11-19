@@ -1,18 +1,10 @@
 {
   "aois": {
-    "my_aoi": [
-      19.91,
-      50.04,
-      19.94,
-      50.06
-    ]
+    "las_wolski": [19.84, 50.04, 19.87, 50.06]
   },
   "item_ids": [
-    "REPLACE_WITH_AN_ITEM_FROM_SEARCH"
+    "S2C_T34UDA_20250605T095638_L2A",
+    "S2B_T34UDA_20250610T095316_L2A"
   ],
-  "bands": [
-    "nir",
-    "swir16",
-    "scl"
-  ]
+  "bands": ["nir08", "swir16", "scl"]
 }
